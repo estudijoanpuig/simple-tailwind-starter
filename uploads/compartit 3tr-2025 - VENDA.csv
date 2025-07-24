@@ -1,0 +1,246 @@
+data,client,producte,import total,empleat,metode pagament
+01/07/2025,Anna Garcia,Manicura semipermanent,"28,00 €",ERICA,targeta
+01/07/2025,Cari,Endospheres,"40,00 €",CLARA,efectiu
+01/07/2025,Carmen Frias,Disseny i depilació de celles,"25,00 €",NEUS,efectiu
+01/07/2025,Carmina,Pedicura semipermanent,"25,00 €",CLARA,efectiu
+01/07/2025,Erica Gimenez,TATTOO,"80,00 €",NEUS,efectiu
+01/07/2025,Judit  Algué,Depilacio Cera,"15,00 €",CARME,targeta
+01/07/2025,Julia Casas,Depilacio Cera,"33,00 €",CARME,targeta
+01/07/2025,Laia Moya Esparbé,Manicura semipermanent,"25,00 €",ERICA,targeta
+01/07/2025,Maria Medina,Depilacio Cera,"22,00 €",CARME,targeta
+01/07/2025,Marta  Obradors,Manicura semipermanent,"25,00 €",NEUS,targeta
+01/07/2025,Marta Sala,Micropigmentacio NEUS,"50,00 €",NEUS,BIZUM NEUS
+01/07/2025,Paola Quiroga,Micropigmentacio NEUS,"50,00 €",NEUS,efectiu
+01/07/2025,Paqui Cano,Endospheres,"50,00 €",CLARA,efectiu
+01/07/2025,Pilar Pujols,Depilacio Cera,"25,00 €",CARME,efectiu
+01/07/2025,Rosa M  Batlló,LPG modelatge corporal,"40,00 €",CARME,targeta
+01/07/2025,Sara  Sanchez,Laminat i disseny de celles,"45,00 €",NEUS,targeta
+01/07/2025,Tere Ramön,Treure semi,"10,00 €",CLARA,targeta
+01/07/2025,Tere Ramön,Neteja Facial,"38,00 €",CLARA,targeta
+02/07/2025,Anabel Perez,Ungles de gel,"49,00 €",NEUS,efectiu
+02/07/2025,Anna Costa,Manicura semipermanent,"25,00 €",ERICA,targeta
+02/07/2025,Clara Casamartina,Ungles de gel,"40,00 €",NEUS,efectiu
+02/07/2025,Cristina Fabregas,Ungles de gel,"35,00 €",ERICA,targeta
+02/07/2025,Judit  Algué,Endospheres,"49,00 €",CLARA,targeta
+02/07/2025,Julia Ros,Pedicura semipermanent,"25,00 €",ERICA,targeta
+02/07/2025,Maria  Camps,Manicura semipermanent,"30,00 €",NEUS,targeta
+02/07/2025,Aroa Gonzalez,Ungles de gel,"49,00 €",NEUS,targeta
+02/07/2025,Maria  Camps,Pedicura semipermanent,"30,00 €",ERICA,targeta
+02/07/2025,Silvia Rodriguez,Manicura semipermanent,"32,00 €",NEUS,targeta
+02/07/2025,Nuria Besa,Depilació celles,"14,00 €",CARME,targeta
+02/07/2025,Nuria Subirana,Manicura semipermanent,"30,00 €",NEUS,targeta
+02/07/2025,Pilar Boixadera,Pedicura semipermanent,"30,00 €",CLARA,targeta
+02/07/2025,Silvia Espina,Lífting de pestanyes,"48,00 €",CARME,efectiu
+03/07/2025,Encarna García,Manicura semipermanent,"25,00 €",ERICA,efectiu
+03/07/2025,Encarna García,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+03/07/2025,Gemma  Castañe,Ungles de gel,"38,00 €",ERICA,targeta
+03/07/2025,Fina Vendrell Vila,Depilacio Cera,"14,00 €",CLARA,targeta
+03/07/2025,Gemma Canals,DERMAPEN,"35,00 €",CLARA,efectiu
+03/07/2025,Anna Costa,Pedicura semipermanent,"25,00 €",ERICA,targeta
+03/07/2025,Imma Sardans,DERMAPEN,"35,00 €",CLARA,targeta
+03/07/2025,Mireia  Pujantell,Pedicura semi + duricies ,"38,00 €",ERICA,targeta
+03/07/2025,Isabel Planes,Endospheres,"100,00 €",CLARA,efectiu
+03/07/2025,Isabel Planes,Pedicura semipermanent,"25,00 €",CLARA,targeta
+03/07/2025,Silvia Espina,Lífting de pestanyes,"48,00 €",CARME,efectiu
+03/07/2025,Visi,Manicura normal,"18,00 €",CLARA,targeta
+03/07/2025,Anna Pons,PRESOTERAPIA,"32,00 €",CARME,efectiu
+03/07/2025,Anna Pons,Lífting de pestanyes,"24,00 €",CARME,efectiu
+03/07/2025,Fina Tubau,Maquillatge,"35,00 €",CARME,efectiu
+03/07/2025,Carme Tubau,Lífting de pestanyes,"24,00 €",CARME,efectiu
+04/07/2025,Ainhoa Flores,Depilació celles,"10,00 €",NEUS,efectiu
+04/07/2025,Cora Serra,Depilació celles,"17,00 €",NEUS,targeta
+04/07/2025,Marina Sala,Manicura semipermanent,"30,00 €",NEUS,targeta
+04/07/2025,Anna Biosca,Manicura semipermanent,"30,00 €",NEUS,targeta
+04/07/2025,Joana  Chamarro,Manicura semipermanent,"27,00 €",NEUS,targeta
+04/07/2025,Pili Gallego,Manicura semipermanent,"25,00 €",NEUS,efectiu
+04/07/2025,Joana  Chamarro,Pedicura semipermanent,"25,00 €",CLARA,targeta
+04/07/2025,Laura Micro,Micropigmentació LAURA,"60,00 €",LAURA,efectiu
+04/07/2025,Beatriz Duran,Depilació celles,"8,00 €",CLARA,efectiu
+04/07/2025,Nina Roca,Depilacio Cera,"45,00 €",CLARA,efectiu
+04/07/2025,Nina Roca,Summesun crema solar color,"38,00 €",CLARA,efectiu
+04/07/2025,Marta Manubens,Manicura semipermanent,"30,00 €",ERICA,targeta
+04/07/2025,Aida  Ruiz,Manicura semipermanent,"30,00 €",ERICA,targeta
+04/07/2025,Nina Roca,Endospheres,"190,00 €",CLARA,efectiu
+04/07/2025,Cora Serra,Pedicura semipermanent,"25,00 €",ERICA,targeta
+04/07/2025,Nuria Duran,Manicura semipermanent,"30,00 €",ERICA,targeta
+04/07/2025,Nina Roca,Summe Glow Body Breeze,"27,90 €",CLARA,efectiu
+04/07/2025,Monica  Wasner,Lífting de pestanyes,"43,00 €",CLARA,targeta
+04/07/2025,Laia Ruiz,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+05/07/2025,Rosa Cabanas,Maquillatge,"55,00 €",NEUS,BIZUM NEUS
+05/07/2025,Joana  Chamarro,Maquillatge,"50,00 €",NEUS,targeta
+05/07/2025,Flores,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+05/07/2025,Laia Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+07/07/2025,Laia Ungles,Manicura semipermanent,"27,00 €",NEUS,targeta
+07/07/2025,Ariadna Deop,TATTOO,"70,00 €",NEUS,targeta
+07/07/2025,Mari Carme Santacreu,Ungles de gel,"35,00 €",ERICA,efectiu
+07/07/2025,Judit  Algué,Endospheres,"49,00 €",CLARA,targeta
+07/07/2025,Marina Santasusana,Lífting de pestanyes,"24,00 €",CARME,targeta
+07/07/2025,Cris Santasusana,Lífting de pestanyes,"24,00 €",CARME,efectiu
+07/07/2025,JUANI TAMAYO PEREA,Depilacio Cera,"25,00 €",CARME,efectiu
+08/07/2025,Maribel Melero,Manicura semipermanent,"32,00 €",ERICA,targeta
+08/07/2025,Olga Batrina,Micropigmentacio NEUS,"200,00 €",NEUS,targeta
+08/07/2025,Paqui Cano,Endospheres,"94,00 €",CLARA,efectiu
+08/07/2025,Fina Vendrell Vila,Treure semi,"10,00 €",CLARA,targeta
+08/07/2025,Anna Biosca,Depilacio Cera,"25,00 €",CARME,targeta
+08/07/2025,Irene Nevado,Endospheres,"100,00 €",CLARA,efectiu
+08/07/2025,Raquel  Fernandez,Ungles de gel,"38,00 €",ERICA,targeta
+08/07/2025,Fina  Llado,Manicura semipermanent,"32,00 €",ERICA,targeta
+08/07/2025,Elisabet Aguilera,Lífting de pestanyes,"48,00 €",CARME,efectiu
+08/07/2025,Chari Mejias,Manicura semipermanent,"25,00 €",ERICA,BONO
+09/07/2025,Carme Cano,Ungles de gel,"45,00 €",NEUS,targeta
+09/07/2025,Ari Clotet,Ungles de gel,"55,00 €",NEUS,targeta
+09/07/2025,Patry,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+09/07/2025,Jimmy  Laser,ELIMINACIÓ TATUATGES,"115,00 €",JIMMY,efectiu
+09/07/2025,Karen Extensions Pestanyes,Ungles de gel,"40,00 €",NEUS,targeta
+09/07/2025,Dina Sanclinens,Manicura semipermanent,"25,00 €",NEUS,targeta
+09/07/2025,Cristina Luna Ruiz,Laminat i disseny de celles,"45,00 €",NEUS,targeta
+09/07/2025,M dolors baro,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+09/07/2025,Montse Serarols,Manicura semipermanent,"25,00 €",ERICA,targeta
+09/07/2025,Anna Garcia,Depilacio Cera,"30,00 €",CARME,targeta
+09/07/2025,Sara  Sanchez,Manicura semipermanent,"30,00 €",ERICA,targeta
+09/07/2025,Eylin,Depilacio Cera,"35,00 €",CARME,targeta
+09/07/2025,Carme Lopez,Lífting de pestanyes,"48,00 €",CARME,efectiu
+09/07/2025,Sara  Sanchez,Pedicura semipermanent,"25,00 €",ERICA,targeta
+09/07/2025,Victoria Nova,Manicura semipermanent,"30,00 €",ERICA,targeta
+10/07/2025,Thalia Hermosilla,Ungles de gel,"50,00 €",NEUS,efectiu
+10/07/2025,Mariona Fumaz,Manicura semipermanent,"30,00 €",NEUS,targeta
+10/07/2025,Marta  Vendrell,Ungles de gel,"40,00 €",NEUS,efectiu
+10/07/2025,Ada Serra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+10/07/2025,Natalia Garcia,Depilació celles,"15,00 €",NEUS,BIZUM NEUS
+10/07/2025,Rosa  Pau,Depilacio Cera,"25,00 €",CARME,efectiu
+10/07/2025,Eva Rivera,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+10/07/2025,Yolanda Cabrera,Ungles de gel,"43,00 €",NEUS,efectiu
+10/07/2025,Carmina,Manicura semipermanent,"25,00 €",ERICA,efectiu
+10/07/2025,Gemma Novell,Depilacio Cera,"14,00 €",CARME,targeta
+10/07/2025,Dina Sanclinens,Pedicura semipermanent,"25,00 €",ERICA,targeta
+10/07/2025,Gemma Novell,Fixador celles,"12,00 €",CARME,targeta
+10/07/2025,Isabel Planes,Manicura semipermanent,"25,00 €",ERICA,targeta
+10/07/2025,Dolors Escudé,Depilacio Cera,"28,00 €",CARME,efectiu
+10/07/2025,Anna  Noguera Merceria,Depilacio Cera,"30,00 €",CARME,efectiu
+10/07/2025,Sonia  Martinez Carmona,DERMAPEN,"50,00 €",CLARA,targeta
+10/07/2025,Mariona  Salés,Depilacio Cera,"14,00 €",CLARA,targeta
+11/07/2025,Beatriz Duran,Massatge relaxant,"50,00 €",CLARA,efectiu
+11/07/2025,M Betlem Castella,Depilacio Cera,"45,00 €",CLARA,targeta
+11/07/2025,Noa,Depilacio Cera,"15,00 €",CLARA,targeta
+11/07/2025,Amiraa,Pedicura semipermanent,"27,00 €",ERICA,efectiu
+11/07/2025,Velmira  Llieva,Manicura semipermanent,"25,00 €",ERICA,efectiu
+11/07/2025,Anna  Barat,Manicura semipermanent,"27,00 €",ERICA,targeta
+11/07/2025,Yolanda Cabrera,Pedicura semipermanent,"27,00 €",ERICA,efectiu
+11/07/2025,Guillem Feliu,Depilacio Cera,"35,00 €",CLARA,targeta
+14/07/2025,Paula Jodar,Ungles de gel,"45,00 €",NEUS,efectiu
+14/07/2025,Ceoswel  Ramirez ,Ungles de gel,"38,00 €",NEUS,targeta
+14/07/2025,Gloria Canals (Cabanes),Manicura semipermanent,"27,00 €",NEUS,targeta
+14/07/2025,Raquel Comellas,Disseny i depilació de celles,"17,00 €",NEUS,targeta
+14/07/2025,Eva Coromines,Endospheres,"190,00 €",CLARA,efectiu
+14/07/2025,Paloma Lorente,Pedicura semipermanent,"25,00 €",CLARA,targeta
+14/07/2025,Nuria Besa,Manicura semipermanent,"27,00 €",ERICA,efectiu
+14/07/2025,Denisse Rodriguez,Ungles de gel,"40,00 €",ERICA,targeta
+14/07/2025,Xavier Perez,Endospheres,"109,00 €",CARME,efectiu
+14/07/2025,Montse Bars,Pedicura semipermanent,"25,00 €",ERICA,targeta
+14/07/2025,Rosa Seuva,Depilacio Cera,"30,00 €",CARME,efectiu
+14/07/2025,Jana Cabanes,Ungles de gel,"40,00 €",NEUS,efectiu
+14/07/2025,Laia Moya Esparbé,Manicura semipermanent,"30,00 €",NEUS,efectiu
+14/07/2025,Nuria Besa,Pedicura semipermanent,"25,00 €",CLARA,targeta
+14/07/2025,Nuria Recio,Lífting de pestanyes,"48,00 €",CARME,targeta
+14/07/2025,Patricia  Rodríguez,Depilacio Cera,"14,00 €",CLARA,targeta
+14/07/2025,Sonia,Depilacio Cera,"14,00 €",CLARA,targeta
+15/07/2025,Carla  Lopez,TATTOO,"40,00 €",NEUS,targeta
+15/07/2025,Roger Coll,TATTOO,"35,00 €",NEUS,efectiu
+15/07/2025,Ari Clotet,Pedicura semipermanent,"25,00 €",CLARA,targeta
+15/07/2025,Gloria Mendez,Depilacio Cera,"25,00 €",CARME,targeta
+15/07/2025,Remei Codina,Manicura semipermanent,"25,00 €",ERICA,efectiu
+15/07/2025,Rosa M  Batlló,LPG modelatge corporal,"40,00 €",CARME,efectiu
+15/07/2025,Judit Juncadella,Manicura semipermanent,"25,00 €",ERICA,efectiu
+15/07/2025,Ainhoa Flores,Pedicura semipermanent,"25,00 €",ERICA,targeta
+15/07/2025,Judit  Algué,Endospheres,"49,00 €",CLARA,targeta
+15/07/2025,Oscar Mellado,Pedicura semipermanent,"25,00 €",ERICA,targeta
+15/07/2025,Erica Gimenez,Lífting de pestanyes,"12,00 €",CARME,efectiu
+15/07/2025,Ariadna  Deop,Lífting de pestanyes,"24,00 €",CARME,targeta
+15/07/2025,Ariadna  Deop,Màscara de pestanyes,"30,00 €",CARME,targeta
+16/07/2025,Pilar Boixadera,Manicura semipermanent,"25,00 €",ERICA,targeta
+16/07/2025,Nuria Besa,Endospheres,"100,00 €",CARME,targeta
+16/07/2025,Ingrid Clotet,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+16/07/2025,Noa,Depilacio Cera,"10,00 €",CARME,efectiu
+16/07/2025,Maribel Melero,Manicura semipermanent,"25,00 €",ERICA,targeta
+16/07/2025,Monica  Rabeya,Ungles de gel,"35,00 €",ERICA,efectiu
+16/07/2025,Ingrid Clotet,Sèrum evoeye,"30,00 €",NEUS,targeta
+16/07/2025,Alba Fumaz,Manicura semipermanent,"32,00 €",NEUS,targeta
+16/07/2025,Miriam Valverde,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+16/07/2025,Sonia Hidalgo,Manicura semipermanent,"32,00 €",NEUS,targeta
+17/07/2025,Ichraq,Pedicura normal + duricies,"38,00 €",ERICA,targeta
+17/07/2025,Montse Martinez,Pedicura semipermanent,"25,00 €",ERICA,targeta
+17/07/2025,Gloria Mendez,Manicura semipermanent,"25,00 €",ERICA,targeta
+17/07/2025,Iman Amsterdam,Ungles de gel,"40,00 €",NEUS,efectiu
+17/07/2025,Maria del Carmen Ramirez,Neteja Facial,"38,00 €",ERICA,targeta
+17/07/2025,Gloria Canals (Cabanes),Pedicura normal + duricies,"28,00 €",ERICA,targeta
+17/07/2025,Queralt Laser,Depilacio Cera,"25,00 €",CARME,targeta
+17/07/2025,Carla Oliva,Lífting de pestanyes,"48,00 €",CARME,efectiu
+17/07/2025,Marina  Serra,Depilacio Cera,"14,00 €",CARME,targeta
+17/07/2025,Irene Nevado,Endospheres,"50,00 €",CARME,efectiu
+17/07/2025,Yolanda Cabrera,Depilacio Cera,"40,00 €",CARME,targeta
+17/07/2025,Berta,Depilacio Cera,"10,00 €",CARME,efectiu
+18/07/2025,Sandra Martínez,Ungles de gel,"39,00 €",NEUS,targeta
+18/07/2025,Nuria Besa,Laminat i disseny de celles,"40,00 €",NEUS,efectiu
+18/07/2025,Paula Jodar,Disseny i depilació de celles,"10,00 €",NEUS,BIZUM NEUS
+18/07/2025,Julia Paris,Ungles de gel,"48,00 €",NEUS,efectiu
+18/07/2025,Berta Santamaria,LPG modelatge corporal,"150,00 €",CARME,efectiu
+18/07/2025,Claudia  Cabanes,Manicura semipermanent,"28,00 €",NEUS,efectiu
+18/07/2025,Ariadna  Deop,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+18/07/2025,Ada Moreno,Lífting de pestanyes,"48,00 €",CARME,targeta
+18/07/2025,Julia Paris,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+18/07/2025,Anna Garcia,Lífting de pestanyes,"48,00 €",CARME,targeta
+18/07/2025,Mariona Giralt,Neteja Facial,"28,00 €",CARME,efectiu
+18/07/2025,Clara Obradors,Pedicura semipermanent,"25,00 €",ERICA,targeta
+18/07/2025,Clara Obradors,Manicura semipermanent,"25,00 €",ERICA,targeta
+18/07/2025,Araceli Barrera,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+18/07/2025,Clara Casamartina,Ungles de gel,"40,00 €",NEUS,efectiu
+18/07/2025,Encarnacio Freixa,Manicura semipermanent,"25,00 €",ERICA,efectiu
+18/07/2025,Pepi ayala,Ungles de gel,"35,00 €",ERICA,efectiu
+19/07/2025,Aida  Ruiz,CRIOLIPOLISIS,"75,00 €",CARME,efectiu
+19/07/2025,Vanessa Perez,CRIOLIPOLISIS,"75,00 €",CARME,efectiu
+19/07/2025,Diana Gonzalez Carrion,Endospheres,"190,00 €",CARME,efectiu
+19/07/2025,Melissa,CRIOLIPOLISIS,"75,00 €",CARME,efectiu
+19/07/2025,Silvia Rodriguez,CRIOLIPOLISIS,"120,00 €",CARME,targeta
+19/07/2025,Xavier Perez,CRIOLIPOLISIS,"75,00 €",CARME,efectiu
+19/07/2025,Aina  Santasusana,Maquillatge,"50,00 €",NEUS,targeta
+21/07/2025,Claudia  Cabanes,Maquillatge i pentinat,"70,00 €",NEUS,efectiu
+21/07/2025,Paula Toran,Ungles de gel,"45,00 €",NEUS,targeta
+21/07/2025,Judit  Martinez,Ungles de gel,"43,00 €",NEUS,efectiu
+21/07/2025,Aida  Ruiz,Lífting de pestanyes,"48,00 €",CARME,targeta
+21/07/2025,Nuria Carmona,Maquillatge,"50,00 €",NEUS,efectiu
+21/07/2025,Gemma Casas,Maquillatge i pentinat,"70,00 €",NEUS,targeta
+21/07/2025,Joana  Chamarro,Maquillatge,"50,00 €",NEUS,targeta
+21/07/2025,Marina  Manzano ,CRIOLIPOLISIS,"240,00 €",CARME,efectiu
+21/07/2025,Marina Crespi,Manicura semipermanent,"32,00 €",NEUS,targeta
+21/07/2025,Marta Prat,CRIOLIPOLISIS,"120,00 €",CARME,efectiu
+21/07/2025,Fina Badia,Manicura semipermanent,"27,00 €",ERICA,targeta
+21/07/2025,Gemma  Castañe,Pedicura normal + duricies,"28,00 €",ERICA,targeta
+21/07/2025,Araceli Barrera,Manicura semipermanent,"25,00 €",ERICA,efectiu
+21/07/2025,Martí Pey,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+21/07/2025,Francesc Vila,Manicura pells i tallar,"15,00 €",ERICA,efectiu
+22/07/2025,Reme Lopez,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+22/07/2025,M Dolors Vidal,Pedicura semipermanent,"25,00 €",ERICA,efectiu
+22/07/2025,M Dolors Vidal,Ungles de gel,"30,00 €",ERICA,efectiu
+22/07/2025,Alba Suau,Manicura semipermanent,"25,00 €",ERICA,targeta
+22/07/2025,Carla Oliva,Ungles de gel,"42,00 €",NEUS,efectiu
+22/07/2025,Judit Fernandez,TATTOO,"90,00 €",NEUS,BIZUM NEUS
+22/07/2025,Laia Moya Esparbé,Pedicura semipermanent,"25,00 €",ERICA,targeta
+22/07/2025,Irene Rovira,Depilacio Cera,"25,00 €",CARME,efectiu
+22/07/2025,Alba Suau,Lífting de pestanyes,"48,00 €",CARME,targeta
+22/07/2025,Mireia Jimenez,,,,
+23/07/2025,Alicia Simó,Ungles de gel,"35,00 €",NEUS,targeta
+23/07/2025,Imma Cano Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+23/07/2025,M Dolors Vidal,Depilacio Cera,"40,00 €",CARME,efectiu
+23/07/2025,Fina Vendrell Vila,Xec regal,"50,00 €",CARME,efectiu
+23/07/2025,Laura Lopez,Ungles de gel,"43,00 €",NEUS,efectiu
+23/07/2025,Anna  Fabrega,Ungles de gel,"35,00 €",NEUS,targeta
+23/07/2025,Imma Cano Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+23/07/2025,Dolors Barrera,Manicura semipermanent,"25,00 €",ERICA,efectiu
+23/07/2025,Anna Martinez,Manicura semipermanent,"32,00 €",NEUS,efectiu
+23/07/2025,Alicia Simó,Pedicura semipermanent,"25,00 €",ERICA,targeta
+23/07/2025,Gloria Mendez,Pedicura semipermanent,"25,00 €",ERICA,targeta
+23/07/2025,Paula Gil,Ungles de gel,"38,00 €",NEUS,targeta
+23/07/2025,Fatima Abdelkarimi,Lífting de pestanyes,"24,00 €",CARME,targeta
+23/07/2025,Fatima Abdelkarimi,Depilacio Cera,"10,00 €",CARME,targeta
+23/07/2025,Berta Gaspar,Lífting de pestanyes,"24,00 €",CARME,efectiu
+23/07/2025,Berta Gaspar,Depilacio Cera,"10,00 €",CARME,efectiu

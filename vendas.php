@@ -179,7 +179,7 @@
         $productos = [];
     }
     ?>
-    <div class="container-fluid m-1" style="margin: 5px !important;">
+    <div class="w-full p-[5px] m-[5px]">
         <!-- Formulari per crear/actualitzar venda -->
         <h2 class="mb-4">Gestió de Vendes</h2>
         <form method="POST" class="mb-6 bg-white shadow-md rounded-xl p-6" id="ventaForm">
@@ -296,7 +296,7 @@
 
         <!-- Taula de vendes -->
         <h3 class="mb-3">Llista de Vendes</h3>
-        <table id="tablaVentas" class="table table-striped table-bordered">
+        <table id="tablaVentas" class="display nowrap" style="width:100%">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -324,16 +324,16 @@
                         <td><?php echo htmlspecialchars($venta['notas'] ?? ''); ?></td>
                         <td><?php echo htmlspecialchars($venta['nombre_empleado'] ?? 'Sense empleat'); ?></td>
                         <td class="text-center">
-                            <a href="?tabla=ventas&accion=editar&id=<?php echo $venta['id']; ?>" class="text-warning me-2" title="Editar">
-                                <i class="fas fa-edit"></i>
-                            </a>
-                            <a href="?tabla=ventas&accion=eliminar&id=<?php echo $venta['id']; ?>" class="text-danger me-2" 
-                               onclick="return confirm('Segur que vols eliminar?')" title="Eliminar">
-                                <i class="fas fa-trash-alt"></i>
-                            </a>
-                            <a href="?tabla=ventas&accion=detalles&id=<?php echo $venta['id']; ?>" class="text-info" title="Veure Detalls">
-                                <i class="fas fa-eye"></i>
-                            </a>
+                            <a href="?tabla=ventas&accion=editar&id=<?php echo $venta['id']; ?>" class="text-orange-300 hover:text-orange-600 me-2" title="Editar">
+    <i class="fas fa-edit"></i>
+</a>
+<a href="?tabla=ventas&accion=eliminar&id=<?php echo $venta['id']; ?>" class="text-red-500 hover:text-red-600 me-2" 
+   onclick="return confirm('Segur que vols eliminar?')" title="Eliminar">
+    <i class="fas fa-trash-alt"></i>
+</a>
+<a href="?tabla=ventas&accion=detalles&id=<?php echo $venta['id']; ?>" class="text-blue-500 hover:text-blue-600" title="Veure Detalls">
+    <i class="fas fa-eye"></i>
+</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>

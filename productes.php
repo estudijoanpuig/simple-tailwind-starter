@@ -170,9 +170,8 @@ try {
     $categorias = [];
 }
 ?>
-
-<div class="m-1 datatables-native" style="margin: 5px !important;">
-    <h2 class="text-xl font-bold mb-4">Gestió de Productes</h2>
+ <div class="w-full p-[5px] m-[5px]">
+    
 
     <!-- Formulari per crear/actualitzar -->
     <form method="POST" class="mb-4 space-y-4" enctype="multipart/form-data">
@@ -257,7 +256,7 @@ try {
     </form>
 
     
-        <table id="tablaProductos" class="display" style="width:100%">
+        <table id="tablaProductos" class="display nowrap" style="width:100%">
             <thead>
                 <tr>
                     <th>ID</th>

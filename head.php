@@ -35,8 +35,9 @@
 	
 	 <!-- Trix -->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.8/dist/trix.css">
-    <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <!-- FANCYBOX -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
 
     <style>
@@ -160,11 +161,11 @@
                                 Cruds taules bbdd <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
-
                                 <a href="index.php" class="block px-4 py-2 hover:bg-gray-100">Gestio clients</a>
+<a href="empleados.php" class="block px-4 py-2 hover:bg-gray-100">empleats</a>
                                 <a href="productes.php" class="block px-4 py-2 hover:bg-gray-100">gestio productes</a>
-                                <a href="categoria_productes.php" class="block px-4 py-2 hover:bg-gray-100">categoria
-                                    productes</a>
+                                <a href="categoria_productes.php" class="block px-4 py-2 hover:bg-gray-100">categoria productes</a>
+								 <a href="proveedores.php" class="block px-4 py-2 hover:bg-gray-100">Proveedores</a>
                             </div>
                         </div>
 
@@ -175,7 +176,7 @@
                             </button>
                             <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
                                 <a href="vendas.php" class="block px-4 py-2 hover:bg-gray-100">vendas</a>
-
+<a href="compras.php" class="block px-4 py-2 hover:bg-gray-100">compras</a>
                             </div>
                         </div>
 
@@ -185,9 +186,10 @@
                                 Informes <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Trimestrals</a>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Anuals</a>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Personalitzats</a>
+                                <a href="informe_ventas.php" class="block px-4 py-2 hover:bg-gray-100">informe ventas</a>
+                                <a href="informe_productes.php" class="block px-4 py-2 hover:bg-gray-100">informe productes</a>
+                                <a href="informe_empleats.php" class="block px-4 py-2 hover:bg-gray-100">informe empleats</a>
+								<a href="informe_gastos.php" class="block px-4 py-2 hover:bg-gray-100">informe gastos</a>
                             </div>
                         </div>
 
@@ -198,8 +200,8 @@
                             </button>
                             <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
                                 <a href="documentacio.php" class="block px-4 py-2 hover:bg-gray-100">Documentacio</a>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Preferències</a>
-                                <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sincronització</a>
+                                <a href="visualizar_productos.php" class="block px-4 py-2 hover:bg-gray-100">galeria productes</a>
+                                <a href="upload_and_import.php" class="block px-4 py-2 hover:bg-gray-100">importar csv sheet google</a>
                             </div>
                         </div>
                     </div>
@@ -217,9 +219,11 @@
                 </button>
                 <div class="mobile-dropdown-content pl-4 mt-1">
                     <a href="index.php" class="block px-3 py-2 rounded hover:bg-blue-600">Clients</a>
+					<a href="empleados.php" class="block px-3 py-2 rounded hover:bg-blue-600">Empleats</a>
                     <a href="productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">productes</a>
                     <a href="categoria_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">categoria
                         productes</a>
+					<a href="proveedores.php" class="block px-3 py-2 rounded hover:bg-blue-600">Proveedores</a>	
                 </div>
             </div>
 
@@ -231,8 +235,8 @@
                 </button>
                 <div class="mobile-dropdown-content pl-4 mt-1">
                     <a href="vendas.php" class="block px-3 py-2 rounded hover:bg-blue-600">vendas</a>
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Factures Pendents</a>
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Històric</a>
+                    <a href="compras.php" class="block px-3 py-2 rounded hover:bg-blue-600">compras</a>
+                    
                 </div>
             </div>
 
@@ -243,9 +247,10 @@
                     Informes <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="mobile-dropdown-content pl-4 mt-1">
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Trimestrals</a>
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Anuals</a>
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Personalitzats</a>
+                    <a href="informe_ventas.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe ventas</a>
+                    <a href="informe_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe productes</a>
+                    <a href="informe_empleats.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe empleats</a>
+					<a href="informe_gastos.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe gastos</a>
                 </div>
             </div>
 
@@ -257,7 +262,7 @@
                 </button>
                 <div class="mobile-dropdown-content pl-4 mt-1">
                     <a href="documentacio.php" class="block px-3 py-2 rounded hover:bg-blue-600">Documentacio</a>
-                    <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Preferències</a>
+                    <a href="visualizar_productos.php" class="block px-3 py-2 rounded hover:bg-blue-600">galeria productes</a>
                     <a href="#" class="block px-3 py-2 rounded hover:bg-blue-600">Sincronització</a>
                 </div>
             </div>

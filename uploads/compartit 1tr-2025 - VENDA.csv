@@ -1,0 +1,556 @@
+data,client,producte,import total,empleat,metode pagament
+02/01/2025,Merce Arpa,Xec regal,"25,00 €",CARME,efectiu
+02/01/2025,carme rovira,Xec regal,"10,00 €",CLARA,efectiu
+03/01/2025,Nina Roca,Xec regal,"100,00 €",CARME,efectiu
+03/01/2025,Silvia Guardia,Xec regal,"100,00 €",CARME,efectiu
+03/01/2025,LAURA MAESTRE RIBAS,Micropigmentació LAURA,"85,00 €",LAURA,efectiu
+03/01/2025,COVI GARCÍA,Depilacio Cera,"47,00 €",CLARA,targeta
+03/01/2025,Nina Roca,Xec regal,"35,00 €",CARME,efectiu
+03/01/2025,Silvia Guardia,Xec regal,"35,00 €",CARME,efectiu
+03/01/2025,COVI GARCÍA,Neteja Facial,"30,00 €",CLARA,targeta
+03/01/2025,Gloria Mendez,Xec regal,"25,00 €",CLARA,targeta
+03/01/2025,Laia Calvet,Drenatge Facial,"25,00 €",CLARA,efectiu
+03/01/2025,Lucia,Contorn ulls FARMACI,"20,00 €",CLARA,targeta
+07/01/2025,Mariona Fumaz,Manicura semipermanent,"27,00 €",NEUS,targeta
+08/01/2025,Cristina Luna Ruiz,Ungles de gel,"42,00 €",NEUS,targeta
+08/01/2025,Maribel Melero,Manicura semipermanent,"35,00 €",NEUS,efectiu
+08/01/2025,Laia  Moya,Manicura semipermanent,"30,00 €",NEUS,targeta
+08/01/2025,Nuria Besa,DERMAPEN,"30,00 €",CLARA,efectiu
+08/01/2025,Anna  Barat Rebullida,Manicura semipermanent,"25,00 €",NEUS,targeta
+08/01/2025,Montse Serarols,Manicura semipermanent,"25,00 €",NEUS,efectiu
+08/01/2025,Remei Codina,Manicura semipermanent,"25,00 €",NEUS,efectiu
+08/01/2025,Rosa Obradors,Depilacio Cera,"24,00 €",CARME,targeta
+08/01/2025,JUDIT JUNCADELLA SOLA,Manicura semipermanent,"15,00 €",NEUS,efectiu
+08/01/2025,Francesc Vila,Depilacio Cera,"5,00 €",CLARA,efectiu
+09/01/2025,MARTA HIFU,Hifu,"385,00 €",MARTA,efectiu
+09/01/2025,Carme  Cavics,Hidroage,"60,00 €",NEUS,targeta
+09/01/2025,Emi ( Laser,DERMAPEN,"38,00 €",CLARA,efectiu
+09/01/2025,Fina Badia,Summesun crema solar color,"38,00 €",CLARA,targeta
+09/01/2025,Alicia Simó,Ungles de gel,"33,00 €",NEUS,targeta
+09/01/2025,Yolanda Cabrera,Manicura semipermanent,"32,00 €",NEUS,efectiu
+09/01/2025,Montse  Cuberes,Neteja Facial,"30,00 €",CLARA,targeta
+09/01/2025,Silvia Rodriguez,Manicura semipermanent,"27,00 €",NEUS,efectiu
+09/01/2025,Anna M  Serrat,Manicura semipermanent,"27,00 €",NEUS,targeta
+09/01/2025,Lourdes Roset,Manicura semipermanent,"27,00 €",NEUS,targeta
+09/01/2025,Anna Biosca,Manicura semipermanent,"25,00 €",NEUS,targeta
+09/01/2025,Carme  Cavics,Manicura semipermanent,"25,00 €",NEUS,targeta
+09/01/2025,Fina Badia,Treure semi,"10,00 €",CLARA,targeta
+09/01/2025,Maria Medina,Depilacio Cera,"10,00 €",CARME,efectiu
+09/01/2025,Fina Badia,Enfortidor ungles,"6,00 €",CLARA,targeta
+09/01/2025,Marina Crespi,Manicura semipermanent,"5,00 €",NEUS,targeta
+10/01/2025,Ceoswel  Ramirez ,Massatge reductor ,"100,00 €",CLARA,efectiu
+10/01/2025,Quim Pujolar Trench,Shape,"100,00 €",CLARA,efectiu
+10/01/2025,Nuria Besa,Ungles de gel,"45,00 €",NEUS,efectiu
+10/01/2025,CONCHITA CALVERAS SENSADA,Ungles de gel,"35,00 €",NEUS,efectiu
+10/01/2025,Natalia 4U,Ungles de gel,"35,00 €",NEUS,efectiu
+10/01/2025,Antonia  Pascual Carnero,Massatge reductor ,"30,00 €",CLARA,efectiu
+10/01/2025,Encarna Charles Gym,Neteja Facial,"30,00 €",CLARA,efectiu
+10/01/2025,Fati  Abdelkarime,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+13/01/2025,Mar Montagut,Lífting de pestanyes,"43,00 €",CARME,targeta
+13/01/2025,Ainhoa Flores,Ungles de gel,"40,00 €",NEUS,efectiu
+13/01/2025,Mar Montagut,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+13/01/2025,Juliana Santos,Manicura semipermanent,"27,00 €",NEUS,efectiu
+13/01/2025,Sonia Hidalgo,Manicura semipermanent,"25,00 €",NEUS,targeta
+14/01/2025,Aida Biosca,Manicura semipermanent,"42,00 €",NEUS,targeta
+14/01/2025,Carme Cano,Ungles de gel,"36,00 €",NEUS,efectiu
+14/01/2025,Julia Abaya,Manicura semipermanent,"35,00 €",NEUS,efectiu
+14/01/2025,Anna Pons,Manicura semipermanent,"30,00 €",NEUS,BIZUM NEUS
+14/01/2025,Carme Cano,Sèrum evoeye,"30,00 €",NEUS,efectiu
+14/01/2025,Laia Calvet,Drenatge Facial,"30,00 €",CLARA,efectiu
+14/01/2025,Dani Ele,Manicura semipermanent,"25,00 €",NEUS,efectiu
+14/01/2025,Anna Noguera,Disseny i depilació de celles,"17,00 €",NEUS,targeta
+14/01/2025,Francesc Vila,Manicura pells i tallar,"15,00 €",CLARA,efectiu
+14/01/2025,Patry,Disseny i depilació de celles,"15,00 €",NEUS,efectiu
+15/01/2025,Carmina,RADIOFREQÜÈNCIA ,"50,00 €",CLARA,efectiu
+15/01/2025,Berta Gaspar,Manicura semipermanent,"37,00 €",NEUS,targeta
+15/01/2025,Erica Gimenez,Ungles de gel,"35,00 €",NEUS,efectiu
+15/01/2025,Laura  León Súria,Ungles de gel,"35,00 €",NEUS,targeta
+15/01/2025,Dina Sanclinens,Manicura semipermanent,"25,00 €",NEUS,targeta
+15/01/2025,Rosa Seuva,Depilacio Cera,"10,00 €",CARME,efectiu
+15/01/2025,Montse Batlló,Enfortidor ungles,"6,00 €",CLARA,efectiu
+16/01/2025,Montse  Codina,Peeling Quimic,"60,00 €",CLARA,targeta
+16/01/2025,Ariadna  Clotet,Ungles de gel,"52,00 €",NEUS,BIZUM NEUS
+16/01/2025,Joana Puig,Ungles de gel,"40,00 €",NEUS,efectiu
+16/01/2025,Sandra Martínez,Ungles de gel,"40,00 €",NEUS,targeta
+16/01/2025,Anna Noguera,Depilacio Cera,"30,00 €",CARME,targeta
+16/01/2025,Ester  Boixader,Massatge reductor ,"30,00 €",CLARA,efectiu
+16/01/2025,Juliana Santos,Manicura semipermanent,"25,00 €",NEUS,efectiu
+16/01/2025,Mar Estruch,Manicura semipermanent,"25,00 €",NEUS,efectiu
+16/01/2025,Lidia Codina,Manicura semipermanent,"25,00 €",NEUS,BIZUM NEUS
+16/01/2025,Montse Mores,Depilacio Cera,"23,00 €",CLARA,efectiu
+16/01/2025,Paula Gil,Manicura semipermanent,"23,00 €",CLARA,efectiu
+16/01/2025,Montse Bars,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+16/01/2025,Carmina,Treure semi,"10,00 €",CLARA,efectiu
+16/01/2025,Erica Gimenez,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+16/01/2025,Montse Masegosa,Depilacio Cera,"5,00 €",CARME,efectiu
+16/01/2025,Montse Masegosa,Depilacio Cera,"5,00 €",CARME,efectiu
+17/01/2025,Anna  Barat Rebullida,Massatge reductor ,"30,00 €",CLARA,targeta
+17/01/2025,Oscar  Gallego,Massatge relaxant ,"30,00 €",CLARA,efectiu
+17/01/2025,CECILIA FUSTER SERRA,Depilacio Cera,"28,00 €",CARME,efectiu
+17/01/2025,Anna Martinez,Manicura semipermanent,"20,00 €",CLARA,efectiu
+17/01/2025,CECILIA FUSTER SERRA,Manicura normal,"10,00 €",CARME,efectiu
+18/01/2025,LAURA MAESTRE RIBAS,Micropigmentació LAURA,"330,00 €",LAURA,efectiu
+18/01/2025,Elia Marquez,Ungles de gel,"50,00 €",NEUS,targeta
+18/01/2025,Jana Cabanes,Ungles de gel,"40,00 €",NEUS,efectiu
+18/01/2025,Claudia  Cabanes,Treure semi,"10,00 €",NEUS,BIZUM NEUS
+20/01/2025,Carla Oliva,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+20/01/2025,Carla Oliva,Ungles de gel,"35,00 €",NEUS,targeta
+20/01/2025,Ana Mary Ruiz,Manicura semipermanent,"25,00 €",NEUS,efectiu
+20/01/2025,Tere Ramön,Manicura semipermanent,"25,00 €",NEUS,targeta
+20/01/2025,Ricard,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+21/01/2025,RAQUEL LASER BLAU,RAQUEL LASER BLAU,"367,00 €",RAQUEL,efectiu
+21/01/2025,Nuria Besa,RADIOFREQÜÈNCIA ,"50,00 €",CLARA,efectiu
+21/01/2025,Maria  Ivanova,Lífting de pestanyes,"43,00 €",CLARA,efectiu
+21/01/2025,Marta  Vendrell,Neteja Facial,"30,00 €",CLARA,efectiu
+21/01/2025,Carolina  Gamboa,Manicura semipermanent,"27,00 €",NEUS,efectiu
+21/01/2025,Anna Costa,Manicura semipermanent,"20,00 €",CLARA,targeta
+21/01/2025,Jordina Serra,Manicura pells i tallar,"15,00 €",CLARA,efectiu
+21/01/2025,Patricia  Rodríguez,Depilacio Cera,"14,00 €",CLARA,targeta
+21/01/2025,Nuria Besa,Depilacio Cera,"8,00 €",CARME,efectiu
+21/01/2025,Maria  Ivanova,Depilacio Cera,"7,00 €",CLARA,efectiu
+22/01/2025,Encarnacio Freixa,RADIOFREQÜÈNCIA ,"50,00 €",CLARA,targeta
+22/01/2025,Fina Fernandez,Manicura semipermanent,"30,00 €",NEUS,targeta
+22/01/2025,Pepi ayala,Manicura semipermanent,"27,00 €",NEUS,efectiu
+22/01/2025,Pili Gallego,Manicura semipermanent,"25,00 €",NEUS,efectiu
+22/01/2025,Maria Medina,Manicura semipermanent,"25,00 €",NEUS,targeta
+22/01/2025,Encarnacio Freixa,Manicura semipermanent,"20,00 €",CLARA,targeta
+22/01/2025,Ceoswel  Ramirez ,Shape,"20,00 €",CLARA,efectiu
+22/01/2025,Mar Estruch,Depilacio Cera,"14,00 €",CLARA,targeta
+22/01/2025,Nat,Depilacio Cera,"14,00 €",CLARA,targeta
+22/01/2025,Angela Orrego,Disseny i depilació de celles,"12,00 €",NEUS,efectiu
+22/01/2025,Fati Zahi,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+22/01/2025,Marta Sala,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+22/01/2025,Pili Gallego,Celles i tint,"10,00 €",CARME,efectiu
+23/01/2025,Isabel  Planes,Shape,"100,00 €",CLARA,efectiu
+23/01/2025,Anabel  Rodriguez,LÀSER IPL,"75,00 €",CLARA,efectiu
+23/01/2025,Eva Rivera,LÀSER IPL,"75,00 €",CLARA,efectiu
+23/01/2025,Rosa  Gonzalez,BeClarity Blemish Controller Cream spf50,"75,00 €",CLARA,efectiu
+23/01/2025,Rosa  Gonzalez,LÀSER IPL,"75,00 €",CLARA,efectiu
+23/01/2025,Rosa M  Batlló,LÀSER IPL,"75,00 €",CLARA,efectiu
+23/01/2025,Silvia Gomez,LÀSER IPL,"75,00 €",CLARA,efectiu
+23/01/2025,Sandra  Quiñonez,LÀSER IPL,"60,00 €",CLARA,efectiu
+23/01/2025,Judit  Martinez,Ungles de gel,"45,00 €",NEUS,efectiu
+23/01/2025,Anna Biosca,Depilacio Cera,"35,00 €",CARME,targeta
+23/01/2025,Rosa Cabanas,Manicura semipermanent,"30,00 €",NEUS,BIZUM NEUS
+23/01/2025,Joana Chamarro,Manicura semipermanent,"27,00 €",NEUS,targeta
+23/01/2025,Marina  Manzano,Depilacio Cera,"25,00 €",CARME,efectiu
+23/01/2025,Isabel  Planes,Parafina mans,"22,00 €",CARME,efectiu
+23/01/2025,Adelina Izquierdo,Manicura semipermanent,"20,00 €",NEUS,efectiu
+23/01/2025,Mercè  Capdevila,Depilacio Cera,"14,00 €",CARME,efectiu
+23/01/2025,Marina Bertran Puig-reig,Treure semi,"13,00 €",NEUS,targeta
+24/01/2025,Imma Cano Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+24/01/2025,Anna Serrat Palau,Depilacio Cera,"10,00 €",CLARA,efectiu
+25/01/2025,Maria Sitges,DEPILACIO LASER DIODE,"189,00 €",CARME,efectiu
+25/01/2025,Nicole  Weane,DEPILACIO LASER DIODE,"168,00 €",CLARA,efectiu
+25/01/2025,Paula  Cots,DEPILACIO LASER DIODE,"168,00 €",CLARA,efectiu
+25/01/2025,Meritxell Torrentó,DEPILACIO LASER DIODE,"70,00 €",CARME,efectiu
+25/01/2025,Meritxell Martin,DEPILACIO LASER DIODE,"60,00 €",CARME,efectiu
+25/01/2025,Anabel  Rodriguez,DEPILACIO LASER DIODE,"45,00 €",CLARA,efectiu
+25/01/2025,Maria  Camps,DEPILACIO LASER DIODE,"45,00 €",CARME,targeta
+25/01/2025,Sergi  Sardans,DEPILACIO LASER DIODE,"45,00 €",CLARA,efectiu
+25/01/2025,Guillem Feliu,Maquillatge,"40,00 €",NEUS,targeta
+25/01/2025,Adriana  De La Cruz,DEPILACIO LASER DIODE,"39,00 €",CLARA,efectiu
+25/01/2025,Carla Vila,DEPILACIO LASER DIODE,"39,00 €",CLARA,efectiu
+25/01/2025,Conchi Melero,Depilació elèctrica,"30,00 €",CARME,efectiu
+25/01/2025,Meritxell Torrentó,Depilacio Cera,"14,00 €",CARME,efectiu
+25/01/2025,Paloma Lorente,DEPILACIO LASER DIODE,"10,00 €",CLARA,efectiu
+26/01/2025,Laura Marin,DEPILACIO LASER DIODE,"169,00 €",CARME,efectiu
+26/01/2025,Neus Bacardit,DEPILACIO LASER DIODE,"169,00 €",CARME,efectiu
+26/01/2025,Mercè Iglesias,DEPILACIO LASER DIODE,"50,00 €",CARME,efectiu
+26/01/2025,Mireia Parramon,DEPILACIO LASER DIODE,"50,00 €",CARME,efectiu
+27/01/2025,Mireia Jimenez,DEPILACIO LASER DIODE,"168,00 €",CLARA,efectiu
+27/01/2025,Gabriella  Alvarez,DEPILACIO LASER DIODE,"75,00 €",CLARA,efectiu
+27/01/2025,Pablo  Fernandez,DEPILACIO LASER DIODE,"45,00 €",CLARA,efectiu
+27/01/2025,Sandra Lomenya,DEPILACIO LASER DIODE,"45,00 €",CLARA,targeta
+27/01/2025,Anna  Barat Rebullida,DEPILACIO LASER DIODE,"39,00 €",CLARA,targeta
+27/01/2025,Julia  Ramos,DEPILACIO LASER DIODE,"25,00 €",CLARA,efectiu
+27/01/2025,Loli Perez,Depilació elèctrica,"25,00 €",CARME,efectiu
+27/01/2025,Loli Perez,DEPILACIO LASER DIODE,"25,00 €",CLARA,efectiu
+27/01/2025,Gisela,DEPILACIO LASER DIODE,"15,00 €",CLARA,efectiu
+27/01/2025,Julia Ramos,Depilacio Cera,"10,00 €",CLARA,efectiu
+28/01/2025,Emi ( Laser,DERMAPEN,"38,00 €",CLARA,efectiu
+28/01/2025,Cora Serra,Depilacio Cera,"33,00 €",CARME,targeta
+28/01/2025,Carmina,Neteja Facial,"30,00 €",CLARA,efectiu
+28/01/2025,Isabel  Planes,Manicura semipermanent,"20,00 €",CLARA,efectiu
+28/01/2025,Cora  Serra,Disseny i depilació de celles,"17,00 €",NEUS,efectiu
+28/01/2025,Ainhoa  Portell,Depilacio Cera,"14,00 €",CLARA,efectiu
+29/01/2025,Ariadna  Deop,Lífting de pestanyes,"43,00 €",CLARA,targeta
+29/01/2025,Alicia Simó,Ungles de gel,"36,00 €",NEUS,efectiu
+29/01/2025,Ester  Boixader,Massatge reductor ,"30,00 €",CLARA,efectiu
+29/01/2025,Laia Calvet,Drenatge Facial,"30,00 €",CLARA,efectiu
+29/01/2025,Pilar Boixadera,Manicura semipermanent,"28,00 €",NEUS,targeta
+29/01/2025,Remei Codina,Manicura semipermanent,"25,00 €",NEUS,efectiu
+29/01/2025,Marta Sala,Manicura semipermanent,"25,00 €",NEUS,BIZUM NEUS
+29/01/2025,COVI GARCÍA,Depilacio Cera,"20,00 €",CARME,efectiu
+29/01/2025,Paula Soler,Depilacio Cera,"20,00 €",CARME,targeta
+29/01/2025,Marta Mudarra,Depilacio Cera,"18,00 €",CARME,efectiu
+29/01/2025,Visi,Manicura normal,"15,00 €",CLARA,efectiu
+29/01/2025,Judit Fernandez,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+30/01/2025,Antònia  Pascual,VIBROTERAPIA,"50,00 €",CLARA,efectiu
+30/01/2025,Judit Aguayo,Ungles de gel,"47,00 €",NEUS,BIZUM NEUS
+30/01/2025,Yolanda Cabrera,Ungles de gel,"38,00 €",NEUS,efectiu
+30/01/2025,Marina Crespi,Manicura semipermanent,"30,00 €",NEUS,targeta
+30/01/2025,Carme Cavics,Manicura semipermanent,"25,00 €",NEUS,efectiu
+30/01/2025,Anna  Barat Rebullida,Manicura semipermanent,"25,00 €",NEUS,targeta
+30/01/2025,Carmen Frias,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+30/01/2025,Natalia Garcia,Manicura semipermanent,"15,00 €",NEUS,targeta
+30/01/2025,Queralt Miramunt,Depilacio Cera,"14,00 €",CLARA,targeta
+30/01/2025,Solé  Serrateix,Depilacio Cera,"14,00 €",NEUS,efectiu
+30/01/2025,Ada Serra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+30/01/2025,Fina Marquez,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+31/01/2025,Xavier Perez,Shape,"100,00 €",CLARA,efectiu
+31/01/2025,Fati Zahi,Ungles de gel,"45,00 €",NEUS,targeta
+31/01/2025,Clara Casamartina,Manicura semipermanent,"30,00 €",NEUS,targeta
+31/01/2025,Laia Ungles,Manicura semipermanent,"30,00 €",NEUS,targeta
+31/01/2025,Tamara Quesada,Manicura semipermanent,"25,00 €",NEUS,targeta
+31/01/2025,Andrea Moreno,Disseny i depilació de celles,"17,00 €",NEUS,targeta
+31/01/2025,Cecilia  Fuster,Manicura normal,"15,00 €",CLARA,efectiu
+31/01/2025,DOLORS SERRA COLILLAS,Manicura normal,"15,00 €",CLARA,efectiu
+31/01/2025,Marina Serra,Disseny i depilació de celles,"14,00 €",CARME,targeta
+31/01/2025,Joana Lopez,Disseny i depilació de celles,"10,00 €",CARME,targeta
+31/01/2025,Talia Hermosilla puig-reig,Treure semi,"10,00 €",CLARA,targeta
+01/02/2025,DOLORS SERRA COLILLAS,Maquillatge,"23,00 €",CARME,efectiu
+01/02/2025,CECILIA FUSTER SERRA,Maquillatge,"20,00 €",CARME,efectiu
+03/02/2025,Maribel Melero,Manicura semipermanent,"40,00 €",NEUS,targeta
+03/02/2025,Alba,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+04/02/2025,Monica Cebollero,Maderoterapia,"50,00 €",CLARA,targeta
+04/02/2025,Judit  Martinez,Dr.C.Tuna Aqua Sèrum,"40,00 €",CLARA,targeta
+04/02/2025,Judit  Martinez,Massatge reductor ,"40,00 €",CLARA,targeta
+04/02/2025,Judit  Martinez,Summesun crema solar color,"38,00 €",CLARA,targeta
+04/02/2025,Rosa Ametlla,Tractament Mascareta enzimàtica,"35,00 €",CLARA,efectiu
+04/02/2025,Judit  Martinez,Dr.C.Tuna Lumi Radiance Gel Netejador,"20,00 €",CLARA,targeta
+05/02/2025,MARTA HIFU,Hifu,"509,25 €",MARTA,efectiu
+05/02/2025,Sara Sanchez,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+05/02/2025,Fina Vendrell Vila,BeClarity Blemish Controller Cream spf50,"38,00 €",NEUS,targeta
+05/02/2025,Carmina  Padollers,Neteja Facial,"30,00 €",CLARA,efectiu
+05/02/2025,COVI GARCÍA,Manicura semipermanent,"27,00 €",NEUS,targeta
+05/02/2025,Lourdes Roset,Manicura semipermanent,"27,00 €",NEUS,targeta
+05/02/2025,Evelyn  TODAY OFERTA,Manicura semipermanent,"26,00 €",NEUS,targeta
+05/02/2025,Laia Moya Esparbé,Manicura semipermanent,"25,00 €",NEUS,targeta
+05/02/2025,Montse Serarols,Manicura semipermanent,"25,00 €",NEUS,targeta
+05/02/2025,Marta Mudarra,Depilacio Cera,"18,00 €",CLARA,targeta
+05/02/2025,Aida  Ruiz,Disseny i depilació de celles,"17,00 €",NEUS,targeta
+06/02/2025,Ceoswel  Ramirez ,Massatge reductor ,"50,00 €",CLARA,efectiu
+06/02/2025,Silvia Gomez,DERMAPEN,"50,00 €",CLARA,efectiu
+06/02/2025,Natalia 4U,Ungles de gel,"38,00 €",NEUS,efectiu
+06/02/2025,Silvia Rodriguez,Manicura semipermanent,"32,00 €",NEUS,targeta
+06/02/2025,Fatima  Zahra,Depilacio Cera,"30,00 €",CLARA,targeta
+06/02/2025,Sonia Hidalgo,Manicura semipermanent,"26,00 €",NEUS,targeta
+06/02/2025,JUANI TAMAYO PEREA,Depilacio Cera,"25,00 €",CARME,efectiu
+06/02/2025,Meritxell Sales Torrento,Disseny i depilació de celles,"14,00 €",CARME,targeta
+06/02/2025,JUANI TAMAYO PEREA,Màscara de pestanyes,"14,00 €",CARME,efectiu
+06/02/2025,Ramon Vila,Disseny i depilació de celles,"12,00 €",NEUS,BIZUM NEUS
+07/02/2025,Mariona Fumaz,Manicura semipermanent,"32,00 €",NEUS,targeta
+07/02/2025,Laia Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+07/02/2025,Lidia Codina,Manicura semipermanent,"25,00 €",NEUS,targeta
+07/02/2025,laura Suau Simo,Depilacio Cera,"20,00 €",CLARA,efectiu
+07/02/2025,Fatima Zahra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+10/02/2025,Bibiana  Hernandez,Ungles de gel,"50,00 €",NEUS,targeta
+11/02/2025,LAURA MAESTRE RIBAS,Micropigmentació LAURA,"190,00 €",LAURA,efectiu
+11/02/2025,Rosa Batlló Dam,Summe Sèrum Hyalurònic,"52,00 €",CARME,efectiu
+11/02/2025,Aida Biosca,Ungles de gel,"47,00 €",NEUS,targeta
+11/02/2025,Judit  Martinez,Massatge reductor ,"40,00 €",CLARA,efectiu
+11/02/2025,Rosa Batlló Dam,Summesun crema solar color,"38,00 €",CARME,efectiu
+11/02/2025,Ceoswel  Ramirez ,Ungles de gel,"37,00 €",NEUS,targeta
+11/02/2025,Julia Abaya,Manicura semipermanent,"33,00 €",NEUS,targeta
+11/02/2025,Sheila Santano,Manicura semipermanent,"30,00 €",NEUS,targeta
+11/02/2025,Carmina,Manicura semipermanent,"27,00 €",NEUS,efectiu
+11/02/2025,Anna Martinez,Manicura semipermanent,"23,00 €",CLARA,efectiu
+11/02/2025,Carla Lamela,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+12/02/2025,SERVEI JUDIT,SERVEI JUDIT,"120,00 €",JUDIT,efectiu
+12/02/2025,Nina Roca,Summe crema Cell C,"62,00 €",CLARA,targeta
+12/02/2025,Carmina,DERMAPEN,"60,00 €",CLARA,efectiu
+12/02/2025,Paula Toran,Ungles de gel,"42,00 €",NEUS,targeta
+12/02/2025,Nina Roca,Summesun crema solar color,"38,00 €",CLARA,targeta
+12/02/2025,Guillem Feliu,Depilacio Cera,"35,00 €",CLARA,targeta
+12/02/2025,Rosa  pau,Depilacio Cera,"25,00 €",CARME,targeta
+12/02/2025,Laia Ungles,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+12/02/2025,Angela Orrego,Disseny i depilació de celles,"12,00 €",NEUS,efectiu
+13/02/2025,RAQUEL LASER BLAU,RAQUEL LASER BLAU,"269,50 €",RAQUEL,efectiu
+13/02/2025,Sandra Martínez,Ungles de gel,"36,00 €",NEUS,targeta
+13/02/2025,Laura  Leon,Ungles de gel,"35,00 €",NEUS,efectiu
+13/02/2025,Joana Puig,Ungles de gel,"33,00 €",NEUS,efectiu
+13/02/2025,Alba Fumaz,Manicura semipermanent,"30,00 €",NEUS,targeta
+13/02/2025,Anna M  Serrat,Manicura semipermanent,"27,00 €",NEUS,efectiu
+13/02/2025,Juliana Santos,Manicura semipermanent,"25,00 €",NEUS,efectiu
+13/02/2025,Juanita Santos,Manicura semipermanent,"23,00 €",CLARA,efectiu
+13/02/2025,Marta Manubens,Manicura semipermanent,"20,00 €",CLARA,BIZUM NEUS
+13/02/2025,Tamara Quesada,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+14/02/2025,Thalia Hermosilla,Ungles de gel,"67,00 €",NEUS,efectiu
+14/02/2025,Erica Gimenez,Ungles de gel,"50,00 €",NEUS,efectiu
+14/02/2025,Anna Biosca,Ungles de gel,"45,00 €",NEUS,targeta
+14/02/2025,Berta Gaspar,Manicura semipermanent,"40,00 €",NEUS,targeta
+14/02/2025,Mercedes Temprado,Summe crema Cell C,"38,00 €",NEUS,efectiu
+14/02/2025,Alba companyo,DERMAPEN,"30,00 €",CLARA,targeta
+14/02/2025,Neus Llorca (Micro),DERMAPEN,"30,00 €",CLARA,efectiu
+14/02/2025,Dina Sanclinens,Manicura semipermanent,"25,00 €",NEUS,targeta
+14/02/2025,Francesc Vila,Manicura pells i tallar,"15,00 €",CLARA,efectiu
+14/02/2025,Alejandro,Depilacio Cera,"10,00 €",CLARA,targeta
+15/02/2025,Xavier Perez,Shape,"100,00 €",CARME,efectiu
+15/02/2025,Montse Jubert,Depilacio Cera,"49,00 €",CARME,efectiu
+15/02/2025,Jana Cabanes,Ungles de gel,"40,00 €",NEUS,efectiu
+15/02/2025,Nuria Subirana,Manicura semipermanent,"30,00 €",NEUS,targeta
+17/02/2025,Marina Serra,Disseny i depilació de celles,"24,00 €",CARME,targeta
+18/02/2025,Paula Toran,Manicura semipermanent,"37,00 €",NEUS,targeta
+18/02/2025,Ainhoa Flores,Ungles de gel,"35,00 €",NEUS,BIZUM NEUS
+18/02/2025,Mireia Gonzalo,Depilacio Cera,"35,00 €",CARME,targeta
+18/02/2025,Mar Estruch,Manicura semipermanent,"30,00 €",NEUS,efectiu
+18/02/2025,Montse Mores,Depilacio Cera,"25,00 €",CARME,efectiu
+18/02/2025,Patry,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+18/02/2025,Miriam Valverde,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+18/02/2025,Pili Gallego,Celles i tint,"12,00 €",CARME,efectiu
+18/02/2025,Carla Lamela,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+19/02/2025,Saray,Micropigmentacio NEUS,"100,00 €",NEUS,efectiu
+19/02/2025,Ramon Gonzalez,TATTOO,"70,00 €",NEUS,efectiu
+19/02/2025,Anna Garcia,Depilacio Cera,"50,00 €",CARME,targeta
+19/02/2025,Anna  Fontanet,Depilacio Cera,"25,00 €",CARME,targeta
+19/02/2025,Nuria Subirana,Depilacio Cera,"15,00 €",CARME,efectiu
+19/02/2025,Ada Serra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+20/02/2025,Ari Clotet,Ungles de gel,"46,00 €",NEUS,BIZUM NEUS
+20/02/2025,Judit  Martinez,Ungles de gel,"35,00 €",NEUS,efectiu
+20/02/2025,Alicia Simó,Ungles de gel,"33,00 €",NEUS,targeta
+20/02/2025,Fina Fernandez,Ungles de gel,"31,00 €",NEUS,targeta
+20/02/2025,Merce Arpa,Ungles de gel,"30,00 €",NEUS,targeta
+20/02/2025,Anna  Barat Rebullida,Manicura semipermanent,"27,00 €",NEUS,targeta
+20/02/2025,Gloria Canals (Cabanes),Manicura semipermanent,"25,00 €",NEUS,targeta
+20/02/2025,Tere Ramön,Manicura semipermanent,"25,00 €",NEUS,targeta
+20/02/2025,Elma Rojas,Disseny i depilació de celles,"12,00 €",NEUS,efectiu
+21/02/2025,Nuria Besa,Ungles de gel,"69,00 €",NEUS,targeta
+21/02/2025,Neus  Campo,Maquillatge,"50,00 €",NEUS,efectiu
+21/02/2025,Andrea Galan Ungles,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+21/02/2025,Antonia  Pascual Carnero,Manicura pells i tallar,"18,00 €",CARME,efectiu
+21/02/2025,Ainhoa Flores,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+21/02/2025,Ariadna Deop,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+22/02/2025,Marta Sala,Manicura semipermanent,"27,00 €",NEUS,BIZUM NEUS
+22/02/2025,Martí  Garcia,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+24/02/2025,Clara Casamartina,TATTOO,"150,00 €",NEUS,efectiu
+24/02/2025,Carla Oliva,Ungles de gel,"40,00 €",NEUS,efectiu
+24/02/2025,Ingrid FC,Sèrum evoeye,"30,00 €",NEUS,targeta
+24/02/2025,Ingrid FC,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+24/02/2025,Pau  Arco,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+25/02/2025,MARTA HIFU,Hifu,"385,00 €",MARTA,efectiu
+25/02/2025,Encarna Carnero,Neteja Facial,"30,00 €",CLARA,efectiu
+25/02/2025,Isabel Planes,Manicura semipermanent,"20,00 €",CLARA,efectiu
+25/02/2025,Anna Noguera,Disseny i depilació de celles,"12,00 €",NEUS,targeta
+26/02/2025,Pilar Boixadera,Manicura semipermanent,"30,00 €",NEUS,efectiu
+26/02/2025,Encarnacio Freixa,Manicura semipermanent,"25,00 €",NEUS,targeta
+26/02/2025,Remei Codina,Manicura semipermanent,"25,00 €",NEUS,targeta
+26/02/2025,Remei Codina,Manicura semipermanent,"25,00 €",CLARA,targeta
+26/02/2025,Carmen Frias,Disseny i depilació de celles,"22,00 €",NEUS,targeta
+27/02/2025,Alba  Torne,LÀSER IPL,"75,00 €",CLARA,targeta
+27/02/2025,Anabel  Rodriguez,LÀSER IPL,"75,00 €",CLARA,efectiu
+27/02/2025,Rosa M  Batlló,LÀSER IPL,"75,00 €",CLARA,efectiu
+27/02/2025,Silvia Gomez,LÀSER IPL,"75,00 €",CLARA,efectiu
+27/02/2025,Sandra  Quiñonez,LÀSER IPL,"60,00 €",CLARA,efectiu
+27/02/2025,Alba  Torne,Lífting de pestanyes,"43,00 €",CARME,targeta
+27/02/2025,Yolanda Cabrera,Ungles de gel,"34,00 €",NEUS,efectiu
+27/02/2025,Ana Mary Ruiz,Manicura semipermanent,"30,00 €",NEUS,efectiu
+27/02/2025,Carme Cavics,Manicura semipermanent,"30,00 €",NEUS,efectiu
+27/02/2025,Laia Moya Esparbé,Manicura semipermanent,"30,00 €",NEUS,targeta
+27/02/2025,Maria Medina,Manicura semipermanent,"30,00 €",NEUS,targeta
+27/02/2025,Marina Crespi,Manicura semipermanent,"30,00 €",NEUS,targeta
+27/02/2025,Paula Gil,Manicura semipermanent,"28,00 €",CLARA,efectiu
+27/02/2025,Evelyn Beltran,Depilacio Cera,"25,00 €",CARME,efectiu
+27/02/2025,Sonia Hidalgo,Manicura semipermanent,"25,00 €",NEUS,targeta
+28/02/2025,Gloria Mendez,DEPILACIO LASER DIODE,"120,00 €",CLARA,efectiu
+28/02/2025,Javi,DEPILACIO LASER DIODE,"89,00 €",CLARA,efectiu
+28/02/2025,Ester Marti,DEPILACIO LASER DIODE,"55,00 €",CLARA,efectiu
+28/02/2025,Carmen Frias,Maquillatge,"50,00 €",NEUS,targeta
+28/02/2025,Roger  Coll,TATTOO,"40,00 €",NEUS,efectiu
+28/02/2025,Rosa  Gonzalez,Summesun crema solar color,"38,00 €",NEUS,efectiu
+28/02/2025,COVI GARCÍA,DERMAPEN,"30,00 €",CLARA,efectiu
+28/02/2025,Laia Ungles,Manicura semipermanent,"25,00 €",NEUS,efectiu
+28/02/2025,Imma Cano Ungles,Manicura semipermanent,"25,00 €",NEUS,BIZUM NEUS
+28/02/2025,Montse Mas,Manicura semipermanent,"20,00 €",NEUS,efectiu
+28/02/2025,Marcel Romera,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+28/02/2025,Ester Marti,Depilacio Cera,"10,00 €",CLARA,efectiu
+01/03/2025,Encarna Carnero,Maquillatge,"150,00 €",NEUS,efectiu
+01/03/2025,Varinia,Manicura semipermanent,"140,00 €",NEUS,efectiu
+01/03/2025,Ainhoa  Portell,DEPILACIO LASER DIODE,"120,00 €",CLARA,efectiu
+01/03/2025,Laia Calvet,LPG mo0delatge corporal,"120,00 €",CARME,efectiu
+01/03/2025,Encarna Carnero,Manicura semipermanent,"100,00 €",NEUS,targeta
+01/03/2025,Maria Sitges,DEPILACIO LASER DIODE,"99,00 €",CLARA,efectiu
+01/03/2025,Anabel  Rodriguez,DEPILACIO LASER DIODE,"70,00 €",CLARA,efectiu
+01/03/2025,Cinta Planes,DEPILACIO LASER DIODE,"60,00 €",CARME,efectiu
+01/03/2025,Julia Ramos,DEPILACIO LASER DIODE,"25,00 €",CLARA,targeta
+02/03/2025,Meritxell Torrentó,DEPILACIO LASER DIODE,"70,00 €",CARME,efectiu
+02/03/2025,Mireia Parramon,DEPILACIO LASER DIODE,"50,00 €",CARME,efectiu
+02/03/2025,Laura  Suau,DEPILACIO LASER DIODE,"45,00 €",CARME,efectiu
+02/03/2025,laura Suau Simo,DEPILACIO LASER DIODE,"45,00 €",CARME,efectiu
+02/03/2025,Meritxell Torrentó,Depilacio Cera,"14,00 €",CARME,efectiu
+02/03/2025,Mariona  Salés,Depilacio Cera,"10,00 €",CARME,efectiu
+03/03/2025,Aida Biosca,DEPILACIO LASER DIODE,"120,00 €",CLARA,efectiu
+03/03/2025,Encarnacio Freixa,Micropigmentacio NEUS,"100,00 €",NEUS,efectiu
+03/03/2025,Pablo  Fernandez,DEPILACIO LASER DIODE,"79,00 €",CLARA,targeta
+03/03/2025,Marc  Torra,DEPILACIO LASER DIODE,"58,00 €",CLARA,efectiu
+03/03/2025,Adelaida Arguello,DEPILACIO LASER DIODE,"50,00 €",CARME,efectiu
+03/03/2025,Francesc Vila,DEPILACIO LASER DIODE,"50,00 €",CLARA,efectiu
+03/03/2025,Maribel Melero,Manicura semipermanent,"40,00 €",NEUS,targeta
+03/03/2025,Sergi  Sardans,DEPILACIO LASER DIODE,"40,00 €",CLARA,targeta
+03/03/2025,Carla Vila,DEPILACIO LASER DIODE,"39,00 €",CLARA,efectiu
+03/03/2025,Paloma Lorente,Sèrum evoeye,"30,00 €",CLARA,targeta
+03/03/2025,Mireia Gonzalo,DEPILACIO LASER DIODE,"25,00 €",CLARA,efectiu
+03/03/2025,Paloma Lorente,DEPILACIO LASER DIODE,"10,00 €",CLARA,targeta
+04/03/2025,Isabel Planes,SHAPE,"100,00 €",CARME,efectiu
+04/03/2025,Paqui Cano,Hidroage,"60,00 €",CARME,efectiu
+04/03/2025,Monica Cebollero,Maderoterapia,"50,00 €",CLARA,targeta
+04/03/2025,Paqui Cano,Tractament Vitamina C,"38,00 €",CARME,efectiu
+04/03/2025,Anna Costa,Manicura semipermanent,"20,00 €",CLARA,targeta
+04/03/2025,Ainhoa  Portell,Depilacio Cera,"14,00 €",CLARA,efectiu
+04/03/2025,Lidia Codina,Manicura pells i tallar,"13,00 €",NEUS,targeta
+05/03/2025,Carme Cano,Ungles de gel,"44,00 €",NEUS,targeta
+05/03/2025,Monica  Wasner,Lífting de pestanyes,"43,00 €",CLARA,targeta
+05/03/2025,Aida Biosca,Manicura semipermanent,"42,00 €",NEUS,targeta
+05/03/2025,Judit  Martinez,Massatge reductor ,"40,00 €",CLARA,targeta
+05/03/2025,Eva Kochan,Kobido,"38,00 €",CLARA,targeta
+05/03/2025,Monica  Wasner,Kobido,"38,00 €",CLARA,targeta
+05/03/2025,Natalia 4U,Ungles de gel,"35,00 €",NEUS,efectiu
+05/03/2025,Evelyn Beltran,Manicura semipermanent,"30,00 €",NEUS,targeta
+05/03/2025,Silvia Rodriguez,Manicura semipermanent,"29,00 €",NEUS,targeta
+05/03/2025,Montse Serarols,Manicura semipermanent,"20,00 €",CLARA,efectiu
+05/03/2025,Fina Fernandez,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+06/03/2025,Raquel Peinado ,PRESOTERAPIA,"70,00 €",CARME,efectiu
+06/03/2025,Carme Carrera,Hidroage,"60,00 €",CLARA,efectiu
+06/03/2025,Ivet Junyent,Tractament Vitamina C,"38,00 €",CLARA,efectiu
+06/03/2025,Anna Biosca,Ungles de gel,"35,00 €",NEUS,efectiu
+06/03/2025,Pepi ayala,Manicura semipermanent,"30,00 €",NEUS,efectiu
+06/03/2025,Ivet Junyent,Parafina mans,"22,00 €",CLARA,efectiu
+06/03/2025,Carolina Ruiz,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+06/03/2025,Maria Medina,Celles i tint,"12,00 €",CARME,efectiu
+07/03/2025,Lorena Garsan,Maquillatge,"200,00 €",NEUS,BIZUM NEUS
+07/03/2025,Anna Pons,Ungles de gel,"54,00 €",NEUS,efectiu
+07/03/2025,Silvia Gomez,DERMAPEN,"50,00 €",CLARA,efectiu
+07/03/2025,Anna Pons,Lífting de pestanyes,"43,00 €",CARME,efectiu
+07/03/2025,Paula Veas,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+07/03/2025,Claudia  Cabanes,Ungles de gel,"35,00 €",NEUS,efectiu
+07/03/2025,Tamara Quesada,Ungles de gel,"35,00 €",NEUS,targeta
+07/03/2025,Queralt Laser,Depilacio Cera,"20,00 €",CARME,targeta
+07/03/2025,Lourdes Roset,Treure semi,"10,00 €",CLARA,targeta
+10/03/2025,Marta Prat,LPG modelatge corporal,"380,00 €",CARME,efectiu
+10/03/2025,RAQUEL LASER BLAU,RAQUEL LASER BLAU,"252,00 €",RAQUEL,efectiu
+10/03/2025,RAQUEL LASER BLAU,RAQUEL LASER BLAU,"210,00 €",RAQUEL,targeta
+10/03/2025,Paula Toran,Micropigmentacio NEUS,"120,00 €",NEUS,targeta
+10/03/2025,Ceoswel  Ramirez ,Ungles de gel,"40,00 €",NEUS,targeta
+10/03/2025,Judit Aguayo,Ungles de gel,"38,00 €",NEUS,BIZUM NEUS
+10/03/2025,Gemma Canals,DERMAPEN,"35,00 €",CLARA,efectiu
+10/03/2025,Ester Puigdellivol,Disseny i depilació de celles,"17,00 €",NEUS,BIZUM NEUS
+11/03/2025,Ceoswel  Ramirez ,Micropigmentacio NEUS,"100,00 €",NEUS,efectiu
+11/03/2025,Raquel Rodriguez,Hidroage,"60,00 €",CLARA,efectiu
+11/03/2025,Dúnia,Ungles de gel,"50,00 €",NEUS,targeta
+11/03/2025,Carmina,Neteja Facial,"38,00 €",CLARA,efectiu
+11/03/2025,Judit Aguayo,Disseny i depilació de celles,"15,00 €",NEUS,BIZUM NEUS
+11/03/2025,JUANI TAMAYO PEREA,Depilacio Cera,"14,00 €",CARME,efectiu
+11/03/2025,Rosa Obradors,Depilacio Cera,"14,00 €",CLARA,targeta
+12/03/2025,Meritxell Torrentó,DEPILACIO LASER DIODE,"169,00 €",CLARA,efectiu
+12/03/2025,Meritxell Torrentó,Radiofreqüència ,"50,00 €",CLARA,efectiu
+12/03/2025,Lourdes Roset,Manicura semipermanent,"20,00 €",CLARA,targeta
+12/03/2025,Francesc Vila,Manicura pells i tallar,"15,00 €",CLARA,efectiu
+13/03/2025,Encarnacio Freixa,Radiofreqüència ,"50,00 €",CLARA,targeta
+13/03/2025,Erica Gimenez,Ungles de gel,"39,00 €",NEUS,BIZUM NEUS
+13/03/2025,Julia Abaya,Ungles de gel,"39,00 €",NEUS,targeta
+13/03/2025,Laura Leon,Ungles de gel,"39,00 €",NEUS,targeta
+13/03/2025,Abril Cutxarrera Batllo,Summesun crema solar color,"38,00 €",CLARA,targeta
+13/03/2025,Alicia Simó,Ungles de gel,"33,00 €",NEUS,targeta
+13/03/2025,Sheila Santano,Manicura semipermanent,"29,00 €",NEUS,targeta
+13/03/2025,Gisela,Manicura semipermanent,"25,00 €",CLARA,efectiu
+13/03/2025,Anna  Barat Rebullida,Manicura semipermanent,"25,00 €",NEUS,targeta
+13/03/2025,Dina Sanclinens,Manicura semipermanent,"25,00 €",NEUS,targeta
+13/03/2025,Sonia Hidalgo,Manicura semipermanent,"25,00 €",NEUS,targeta
+13/03/2025,Anna M  Serrat,Manicura semipermanent,"23,00 €",CLARA,efectiu
+13/03/2025,Sonia Hidalgo,Parafina mans,"22,00 €",CARME,targeta
+13/03/2025,Juliana Santos,Manicura semipermanent,"20,00 €",NEUS,efectiu
+13/03/2025,Aida  Ruiz,Manicura semipermanent,"17,00 €",NEUS,targeta
+13/03/2025,Natalia Garcia,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+13/03/2025,Ada Serra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+13/03/2025,Juliana Santos,Manicura semipermanent,"10,00 €",NEUS,targeta
+13/03/2025,Anna  Barat Rebullida,Disseny i depilació de celles,"8,00 €",CLARA,targeta
+14/03/2025,LAURA MAESTRE RIBAS,Micropigmentació LAURA,"290,00 €",LAURA,efectiu
+14/03/2025,Aida Gil,Hidroage,"60,00 €",CLARA,targeta
+14/03/2025,Ester Sanchez,Radiofreqüència ,"60,00 €",CLARA,efectiu
+14/03/2025,Fina Vendrell Vila,Hidroage,"60,00 €",CLARA,efectiu
+14/03/2025,Mari Lopez,Hidroage,"60,00 €",CLARA,targeta
+14/03/2025,Silvia Gomez,Hidroage,"60,00 €",CLARA,efectiu
+14/03/2025,Carmina,Ungles de gel,"48,00 €",NEUS,efectiu
+14/03/2025,Ester Sanchez,UTSUKUSY Eye lift contour,"28,00 €",CLARA,efectiu
+14/03/2025,Alina,Depilacio Cera,"10,00 €",CARME,targeta
+17/03/2025,Sara Sanchez,Laminat i disseny de celles,"40,00 €",NEUS,targeta
+17/03/2025,Mercedes  Lopez,Depilacio Cera,"10,00 €",CARME,efectiu
+18/03/2025,Rosa  Bajona,LPG modelatge corporal,"150,00 €",CLARA,efectiu
+18/03/2025,Fina Fernandez,Micropigmentacio NEUS,"100,00 €",NEUS,efectiu
+18/03/2025,Berta Gaspar,Manicura semipermanent,"37,00 €",NEUS,targeta
+18/03/2025,Sesi Brando,Radiofreqüència ,"35,00 €",CLARA,targeta
+18/03/2025,Cora Serra,Depilacio Cera,"30,00 €",CARME,efectiu
+18/03/2025,ester pedrals,Depilacio Cera,"25,00 €",CARME,efectiu
+18/03/2025,Cora Serra,Disseny i depilació de celles,"17,00 €",NEUS,efectiu
+18/03/2025,Patry,Disseny i depilació de celles,"15,00 €",NEUS,targeta
+19/03/2025,Judit  Martinez,Maderoterapia,"245,00 €",CLARA,efectiu
+19/03/2025,Ambar,Shape,"50,00 €",CLARA,efectiu
+19/03/2025,Sandra Martínez,Ungles de gel,"37,00 €",NEUS,targeta
+19/03/2025,Judit  Martinez,PRESOTERAPIA,"30,00 €",CLARA,efectiu
+19/03/2025,Mar Estruch,Manicura semipermanent,"27,00 €",NEUS,targeta
+19/03/2025,Remei Codina,Manicura semipermanent,"27,00 €",NEUS,targeta
+19/03/2025,Jennifer Sabadell,Manicura semipermanent,"25,00 €",NEUS,targeta
+20/03/2025,Juliana Santos,DERMAPEN,"60,00 €",CLARA,efectiu
+20/03/2025,Francesc  Vila,Depilacio Cera,"50,00 €",CLARA,efectiu
+20/03/2025,laura Picas,Laminat i disseny de celles,"30,00 €",NEUS,efectiu
+20/03/2025,Mariona Fumaz,UTSUKUSY Eye lift contour,"28,00 €",CARME,targeta
+20/03/2025,Fina Fernandez,Manicura semipermanent,"27,00 €",NEUS,targeta
+20/03/2025,Marta Sala,Manicura semipermanent,"27,00 €",NEUS,BIZUM NEUS
+20/03/2025,Merce Arpa,Ungles de gel,"27,00 €",NEUS,targeta
+20/03/2025,Tere Ramön,Maquillatge i pentinat,"27,00 €",NEUS,targeta
+20/03/2025,Pili Gallego,Manicura semipermanent,"25,00 €",NEUS,efectiu
+20/03/2025,Carmen Frias,Disseny i depilació de celles,"25,00 €",NEUS,targeta
+20/03/2025,Gloria Canals (Cabanes),Manicura semipermanent,"25,00 €",NEUS,targeta
+20/03/2025,Laia Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+20/03/2025,Antonia  Pascual Carnero,Manicura normal,"18,00 €",CLARA,efectiu
+20/03/2025,Angela Orrego,Disseny i depilació de celles,"15,00 €",NEUS,efectiu
+20/03/2025,Queralt Miramunt,Depilacio Cera,"14,00 €",CLARA,efectiu
+20/03/2025,Marina Serra,Depilacio Cera,"14,00 €",CARME,targeta
+20/03/2025,Rosa Seuva,Depilacio Cera,"10,00 €",CARME,efectiu
+21/03/2025,Montse Canal,Shape,"250,00 €",CARME,efectiu
+21/03/2025,Pilar Boixadera,Micropigmentacio NEUS,"100,00 €",NEUS,efectiu
+21/03/2025,Silvia Gomez,DERMAPEN,"50,00 €",CLARA,efectiu
+21/03/2025,Guillem Feliu,Depilacio Cera,"35,00 €",CLARA,targeta
+21/03/2025,Jana Cabanes,Ungles de gel,"35,00 €",NEUS,efectiu
+21/03/2025,Monica Cebollero,Massatge reductor ,"30,00 €",CLARA,efectiu
+21/03/2025,Marina  Manzano,Depilacio Cera,"25,00 €",CARME,efectiu
+21/03/2025,Juanita Santos,Manicura semipermanent,"23,00 €",CLARA,efectiu
+22/03/2025,Fina Tubau,Shape,"50,00 €",CARME,efectiu
+24/03/2025,MARTA HIFU,Hifu,"385,00 €",MARTA,efectiu
+24/03/2025,Berta Santamaria,LPG modelatge corporal,"200,00 €",CLARA,efectiu
+24/03/2025,Diana Gonzalez Carrion,Hidroage,"60,00 €",CLARA,targeta
+24/03/2025,Paula Toran,Ungles de gel,"36,00 €",NEUS,targeta
+24/03/2025,Montse Masegosa,Depilacio Cera,"5,00 €",CARME,efectiu
+25/03/2025,Rosa  Bajona,LPG modelatge corporal,"150,00 €",CLARA,efectiu
+25/03/2025,Aida Biosca,Manicura semipermanent,"47,00 €",NEUS,targeta
+25/03/2025,Ari Clotet,Ungles de gel,"40,00 €",NEUS,BIZUM NEUS
+25/03/2025,Emi ( Laser,DERMAPEN,"38,00 €",CLARA,efectiu
+25/03/2025,Carme  Bermejo,Manicura semipermanent,"33,00 €",NEUS,targeta
+25/03/2025,Saray,Micropigmentacio NEUS,"30,00 €",NEUS,targeta
+25/03/2025,Imma Cano Ungles,Manicura semipermanent,"25,00 €",NEUS,targeta
+25/03/2025,Erick Gym,Manicura pells i tallar,"15,00 €",NEUS,efectiu
+25/03/2025,Laia Ruiz,Disseny i depilació de celles,"15,00 €",NEUS,efectiu
+26/03/2025,Judit Clinica,SERVEI JUDIT,"120,00 €",JUDIT,efectiu
+26/03/2025,Noemí  Tortras,CRIOLIPOLISIS,"75,00 €",CARME,efectiu
+26/03/2025,Noemí  Tortras,Laminat i disseny de celles,"45,00 €",NEUS,efectiu
+26/03/2025,Noemí  Tortras,Lífting de pestanyes,"43,00 €",CARME,efectiu
+26/03/2025,Anna  Escudero ( Claudi),Kobido,"38,00 €",CLARA,targeta
+26/03/2025,Laura Velasco,Lífting de pestanyes,"30,00 €",CARME,targeta
+26/03/2025,Marina Crespi,Manicura semipermanent,"30,00 €",NEUS,targeta
+26/03/2025,Anna Martinez,Manicura semipermanent,"27,00 €",NEUS,efectiu
+26/03/2025,Carme Cavics,Manicura semipermanent,"27,00 €",NEUS,efectiu
+26/03/2025,Pilar Boixadera,Manicura semipermanent,"25,00 €",NEUS,efectiu
+26/03/2025,Anna Biosca,Manicura semipermanent,"25,00 €",NEUS,targeta
+26/03/2025,Anna  Escudero ( Claudi),Summe Tònic Facial,"24,00 €",CLARA,targeta
+26/03/2025,Laia Moya Esparbé,Manicura semipermanent,"20,00 €",CLARA,targeta
+26/03/2025,Anna Noguera,Disseny i depilació de celles,"12,00 €",NEUS,efectiu
+26/03/2025,Ada Serra,Disseny i depilació de celles,"10,00 €",NEUS,targeta
+26/03/2025,Erica Gimenez,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+26/03/2025,Judit Fernandez,Disseny i depilació de celles,"10,00 €",NEUS,efectiu
+27/03/2025,Cari,Hidroage,"60,00 €",CLARA,targeta
+27/03/2025,Juanita Santos,Kobido,"38,00 €",CLARA,efectiu
+27/03/2025,Eylin,Depilacio Cera,"35,00 €",CARME,targeta
+28/03/2025,Fina Vendrell Vila,DERMAPEN,"60,00 €",CLARA,efectiu
+28/03/2025,Anna Noguera,Depilacio Cera,"25,00 €",CLARA,efectiu
+28/03/2025,Anna Pons,Pedicura semipermanent,"25,00 €",CLARA,efectiu
+28/03/2025,Encarnacio Freixa,Manicura semipermanent,"20,00 €",CLARA,efectiu
