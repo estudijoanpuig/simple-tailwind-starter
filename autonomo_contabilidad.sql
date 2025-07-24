@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Temps de generació: 24-07-2025 a les 02:41:25
+-- Temps de generació: 24-07-2025 a les 11:43:49
 -- Versió del servidor: 8.4.4
 -- Versió de PHP: 8.2.27
 
@@ -174,6 +174,48 @@ CREATE TABLE `wp_contabilidad_proveedores` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de la taula `wp_contabilidad_seguiment_corporal`
+--
+
+CREATE TABLE `wp_contabilidad_seguiment_corporal` (
+  `id` mediumint NOT NULL,
+  `cliente_id` mediumint NOT NULL,
+  `tractament_id` mediumint DEFAULT NULL,
+  `fecha_medicion` date NOT NULL,
+  `peso_kg` decimal(5,2) NOT NULL,
+  `cintura_cm` decimal(5,2) DEFAULT NULL,
+  `malucs_cm` decimal(5,2) DEFAULT NULL,
+  `cuixes_cm` decimal(5,2) DEFAULT NULL,
+  `braços_cm` decimal(5,2) DEFAULT NULL,
+  `greix_percentatge` decimal(5,2) DEFAULT NULL,
+  `imc` decimal(5,2) DEFAULT NULL,
+  `notas` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de la taula `wp_contabilidad_tractaments_laser`
+--
+
+CREATE TABLE `wp_contabilidad_tractaments_laser` (
+  `id` mediumint NOT NULL,
+  `cliente_id` mediumint NOT NULL,
+  `venta_id` mediumint DEFAULT NULL,
+  `fecha_tratamiento` date NOT NULL,
+  `tipo_tratamiento` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `zona_cuerpo` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `num_sesion` int NOT NULL,
+  `notas` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de la taula `wp_contabilidad_ventas`
 --
 
@@ -256,6 +298,22 @@ ALTER TABLE `wp_contabilidad_proveedores`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Índexs per a la taula `wp_contabilidad_seguiment_corporal`
+--
+ALTER TABLE `wp_contabilidad_seguiment_corporal`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `cliente_id` (`cliente_id`),
+  ADD KEY `tractament_id` (`tractament_id`);
+
+--
+-- Índexs per a la taula `wp_contabilidad_tractaments_laser`
+--
+ALTER TABLE `wp_contabilidad_tractaments_laser`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `cliente_id` (`cliente_id`),
+  ADD KEY `venta_id` (`venta_id`);
+
+--
 -- Índexs per a la taula `wp_contabilidad_ventas`
 --
 ALTER TABLE `wp_contabilidad_ventas`
@@ -323,10 +381,40 @@ ALTER TABLE `wp_contabilidad_proveedores`
   MODIFY `id` mediumint NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT per la taula `wp_contabilidad_seguiment_corporal`
+--
+ALTER TABLE `wp_contabilidad_seguiment_corporal`
+  MODIFY `id` mediumint NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT per la taula `wp_contabilidad_tractaments_laser`
+--
+ALTER TABLE `wp_contabilidad_tractaments_laser`
+  MODIFY `id` mediumint NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT per la taula `wp_contabilidad_ventas`
 --
 ALTER TABLE `wp_contabilidad_ventas`
   MODIFY `id` mediumint NOT NULL AUTO_INCREMENT;
+
+--
+-- Restriccions per a les taules bolcades
+--
+
+--
+-- Restriccions per a la taula `wp_contabilidad_seguiment_corporal`
+--
+ALTER TABLE `wp_contabilidad_seguiment_corporal`
+  ADD CONSTRAINT `fk_seguiment_corporal_cliente` FOREIGN KEY (`cliente_id`) REFERENCES `wp_contabilidad_clientes` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_seguiment_corporal_tractament` FOREIGN KEY (`tractament_id`) REFERENCES `wp_contabilidad_tractaments_laser` (`id`) ON DELETE SET NULL;
+
+--
+-- Restriccions per a la taula `wp_contabilidad_tractaments_laser`
+--
+ALTER TABLE `wp_contabilidad_tractaments_laser`
+  ADD CONSTRAINT `fk_tractaments_laser_cliente` FOREIGN KEY (`cliente_id`) REFERENCES `wp_contabilidad_clientes` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_tractaments_laser_venta` FOREIGN KEY (`venta_id`) REFERENCES `wp_contabilidad_ventas` (`id`) ON DELETE SET NULL;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

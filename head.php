@@ -25,10 +25,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
     <!-- Flatpickr -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/l10n/ca.js"></script>
+	
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
@@ -156,18 +158,20 @@
                 <div class="hidden md:flex">
                     <div class="flex space-x-1">
                         <!-- Dropdown 1: Clients -->
-                        <div class="dropdown relative">
-                            <button class="px-4 py-2 hover:bg-blue-700 rounded flex items-center dropdown-btn">
-                                Cruds taules bbdd <i class="fas fa-chevron-down ml-1 text-xs"></i>
-                            </button>
-                            <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
-                                <a href="index.php" class="block px-4 py-2 hover:bg-gray-100">Gestio clients</a>
+<div class="dropdown relative">
+<button class="px-4 py-2 hover:bg-blue-700 rounded flex items-center dropdown-btn">
+Cruds taules bbdd <i class="fas fa-chevron-down ml-1 text-xs"></i>
+</button>
+<div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
+<a href="index.php" class="block px-4 py-2 hover:bg-gray-100">Gestio clients</a>
+<a href="seguiment_laser.php" class="block px-4 py-2 hover:bg-gray-100">seguiment laser</a>
+<a href="seguiment_corporal.php" class="block px-4 py-2 hover:bg-gray-100">seguiment corporal</a>
 <a href="empleados.php" class="block px-4 py-2 hover:bg-gray-100">empleats</a>
-                                <a href="productes.php" class="block px-4 py-2 hover:bg-gray-100">gestio productes</a>
-                                <a href="categoria_productes.php" class="block px-4 py-2 hover:bg-gray-100">categoria productes</a>
-								 <a href="proveedores.php" class="block px-4 py-2 hover:bg-gray-100">Proveedores</a>
-                            </div>
-                        </div>
+<a href="productes.php" class="block px-4 py-2 hover:bg-gray-100">gestio productes</a>
+<a href="categoria_productes.php" class="block px-4 py-2 hover:bg-gray-100">categoria productes</a>
+<a href="proveedores.php" class="block px-4 py-2 hover:bg-gray-100">Proveedores</a>
+</div>
+</div>
 
                         <!-- Dropdown 2: Factures -->
                         <div class="dropdown relative">
@@ -190,6 +194,7 @@
                                 <a href="informe_productes.php" class="block px-4 py-2 hover:bg-gray-100">informe productes</a>
                                 <a href="informe_empleats.php" class="block px-4 py-2 hover:bg-gray-100">informe empleats</a>
 								<a href="informe_gastos.php" class="block px-4 py-2 hover:bg-gray-100">informe gastos</a>
+								<a href="informe_resultado.php" class="block px-4 py-2 hover:bg-gray-100">informe resultado</a>
                             </div>
                         </div>
 
@@ -217,14 +222,16 @@
                     class="mobile-dropdown-btn w-full text-left px-3 py-2 rounded flex justify-between items-center bg-blue-600">
                     Cruds taules bbdd <i class="fas fa-chevron-down"></i>
                 </button>
-                <div class="mobile-dropdown-content pl-4 mt-1">
-                    <a href="index.php" class="block px-3 py-2 rounded hover:bg-blue-600">Clients</a>
-					<a href="empleados.php" class="block px-3 py-2 rounded hover:bg-blue-600">Empleats</a>
-                    <a href="productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">productes</a>
-                    <a href="categoria_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">categoria
-                        productes</a>
-					<a href="proveedores.php" class="block px-3 py-2 rounded hover:bg-blue-600">Proveedores</a>	
-                </div>
+<div class="mobile-dropdown-content pl-4 mt-1">
+<a href="index.php" class="block px-3 py-2 rounded hover:bg-blue-600">Clients</a>
+<a href="seguiment_laser.php" class="block px-3 py-2 rounded hover:bg-blue-600">seguiment laser</a>
+<a href="seguiment_corporal.php" class="block px-3 py-2 rounded hover:bg-blue-600">seguiment corporal</a>
+<a href="empleados.php" class="block px-3 py-2 rounded hover:bg-blue-600">Empleats</a>
+<a href="productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">productes</a>
+<a href="categoria_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">categoria
+productes</a>
+<a href="proveedores.php" class="block px-3 py-2 rounded hover:bg-blue-600">Proveedores</a>	
+</div>
             </div>
 
             <!-- Dropdown 2: Factures -->
@@ -251,6 +258,7 @@
                     <a href="informe_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe productes</a>
                     <a href="informe_empleats.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe empleats</a>
 					<a href="informe_gastos.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe gastos</a>
+					<a href="informe_resultado.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe resultado</a>
                 </div>
             </div>
 

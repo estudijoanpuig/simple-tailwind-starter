@@ -19,15 +19,12 @@
 <!-- DataTables Moment Plugin -->
 <script src="https://cdn.datatables.net/plug-ins/1.13.6/sorting/datetime-moment.js"></script>
 
-<!-- Flatpickr JS -->
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ca.js"></script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
 
-<!-- Afegir Chart.js -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <!-- Afegir trix -->
 <script src="https://unpkg.com/trix@2.0.5/dist/trix.umd.min.js"></script>
 
