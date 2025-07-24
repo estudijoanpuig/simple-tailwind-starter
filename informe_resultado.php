@@ -147,9 +147,7 @@ try {
     </table>
 </div>
 
-<!-- CSS i JS per a DataTables -->
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+
 
 <!-- Highcharts Script -->
 <script src="https://code.highcharts.com/highcharts.js"></script>

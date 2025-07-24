@@ -154,10 +154,7 @@ try {
         </div>
     </div>
 
-    <!-- Highcharts Script -->
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Gràfic Mensual (Columnes Apilades per Producte)
