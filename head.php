@@ -195,6 +195,8 @@ Cruds taules bbdd <i class="fas fa-chevron-down ml-1 text-xs"></i>
                                 <a href="informe_empleats.php" class="block px-4 py-2 hover:bg-gray-100">informe empleats</a>
 								<a href="informe_gastos.php" class="block px-4 py-2 hover:bg-gray-100">informe gastos</a>
 								<a href="informe_resultado.php" class="block px-4 py-2 hover:bg-gray-100">informe resultado</a>
+								<a href="informe_fiscal.php" class="block px-4 py-2 hover:bg-gray-100">informe fiscal</a>
+								<a href="informe_cobraments_pagaments.php" class="block px-4 py-2 hover:bg-gray-100">informe metodes de cobraments/pagaments</a>
                             </div>
                         </div>
 
@@ -259,6 +261,8 @@ productes</a>
                     <a href="informe_empleats.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe empleats</a>
 					<a href="informe_gastos.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe gastos</a>
 					<a href="informe_resultado.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe resultado</a>
+					<a href="informe_fiscal.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe fiscal</a>
+					<a href="informe_cobraments_pagaments.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe metodes de cobraments/pagaments</a>
                 </div>
             </div>
 
