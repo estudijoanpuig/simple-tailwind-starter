@@ -162,7 +162,7 @@ try {
             LEFT JOIN wp_contabilidad_detalles_compra d ON c.id = d.compra_id 
             LEFT JOIN wp_contabilidad_productos pr ON d.producto_id = pr.id 
             LEFT JOIN wp_contabilidad_categoria_productos cat ON pr.id_categoria_producto = cat.id 
-            GROUP BY c.id, c.proveedor_id, c.fecha, c.subtotal, c.iva_monto, c.total, c.notas, c.created_at, c.updated_at, p.nombre";
+            GROUP BY c.id, c.proveedor_id, c.fecha, c.subtotal, c.iva_monto, c.total, c.created_at, c.updated_at, p.nombre";
     $stmt = $pdo->query($sql);
     $compras = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
@@ -239,10 +239,7 @@ try {
                 <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 flatpickr" id="fecha_display" placeholder="dd/mm/aaaa">
                 <input type="hidden" name="fecha" id="fecha_hidden" value="<?php echo $compra_editar ? $compra_editar['fecha'] : date('Y-m-d'); ?>">
             </div>
-            <div>
-                <label for="notas" class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
-                <textarea class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" name="notas"><?php echo $compra_editar ? htmlspecialchars($compra_editar['notas'] ?? '') : ''; ?></textarea>
-            </div>
+            
 
             <!-- Secció de detalls de compra -->
             <div>
@@ -311,7 +308,7 @@ try {
                     <th>Subtotal (€)</th>
                     <th>Import IVA (€)</th>
                     <th>Total (€)</th>
-                    <th>Notes</th>
+                    
                     <th>Creat</th>
                     <th>Actualitzat</th>
                     <th>Accions</th>
@@ -327,7 +324,7 @@ try {
                         <td><?php echo number_format($compra['subtotal'], 2, ',', '.'); ?></td>
                         <td><?php echo number_format($compra['iva_monto'], 2, ',', '.'); ?></td>
                         <td><?php echo number_format($compra['total'], 2, ',', '.'); ?></td>
-                        <td><?php echo htmlspecialchars($compra['notas'] ?? ''); ?></td>
+                       
                         <td><?php echo htmlspecialchars($compra['created_at'] ?? ''); ?></td>
                         <td><?php echo htmlspecialchars($compra['updated_at'] ?? ''); ?></td>
                         <td class="text-center space-x-2">

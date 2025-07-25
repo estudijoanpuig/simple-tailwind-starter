@@ -54,15 +54,14 @@
             $index++;
         }
 
-        // Consulta per obtenir els sistemes de pagament per tot l'any 2025 (despeses)
+        // Consulta per obtenir els sistemes de pagament per tot l'any 2025 (despeses), sense 'notas'
         $sql_despeses_anual = "
             SELECT 
-                notas COLLATE utf8mb4_unicode_ci AS metode,
+                'Desconegut' AS metode,
                 SUM(subtotal) AS total
             FROM wp_contabilidad_compras
-            WHERE YEAR(fecha) = 2025 AND notas IS NOT NULL AND notas != ''
+            WHERE YEAR(fecha) = 2025
             GROUP BY metode
-            ORDER BY total DESC
         ";
         $stmt_despeses_anual = $pdo->query($sql_despeses_anual);
         $despeses_anual_data = $stmt_despeses_anual->fetchAll(PDO::FETCH_ASSOC);
@@ -87,6 +86,22 @@
         exit;
     }
     ?>
+
+    <!-- Secció del gràfic d'ingressos (vendes) -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-semibold text-gray-800">Distribució de Pagaments - Ingressos 2025</h2>
+        </div>
+        <div id="ingressos-chart" class="w-full h-[400px]"></div>
+    </div>
+
+    <!-- Secció del gràfic de despeses (compres) -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-semibold text-gray-800">Distribució de Pagaments - Despeses 2025</h2>
+        </div>
+        <div id="despeses-chart" class="w-full h-[400px]"></div>
+    </div>
 
     <!-- Secció per mostrar els resultats de la consulta de test (sistemes de pagament a vendes amb sumes) -->
     <div class="mb-8">
@@ -117,167 +132,111 @@
         </div>
     </div>
 
-    <!-- Secció del gràfic d'ingressos (vendes) -->
-    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <div class="flex justify-between items-center mb-4">
-            <h2 class="text-2xl font-semibold text-gray-800">Distribució de Pagaments - Ingressos 2025</h2>
-        </div>
-        <?php if ($total_ingressos > 0): ?>
-            <div id="ingressos-chart" class="w-full h-[400px]"></div>
-        <?php else: ?>
-            <p class="text-center text-gray-500">No hi ha dades per mostrar el gràfic d'ingressos.</p>
-        <?php endif; ?>
-    </div>
-
-    <!-- Secció del gràfic de despeses (compres) -->
-    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-        <div class="flex justify-between items-center mb-4">
-            <h2 class="text-2xl font-semibold text-gray-800">Distribució de Pagaments - Despeses 2025</h2>
-        </div>
-        <?php if ($total_despeses > 0): ?>
-            <div id="despeses-chart" class="w-full h-[400px]"></div>
-        <?php else: ?>
-            <p class="text-center text-gray-500">No hi ha dades per mostrar el gràfic de despeses.</p>
-        <?php endif; ?>
-    </div>
-
     <!-- Script per als gràfics de pastís -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Gràfic per ingressos
-            <?php if ($total_ingressos > 0): ?>
-                Highcharts.chart('ingressos-chart', {
-                    chart: {
-                        type: 'pie'
-                    },
-                    title: {
-                        text: 'Distribució d\'Ingressos - Any 2025'
-                    },
-                    tooltip: {
-                        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f} €</b> ({point.percentage:.1f}%)'
-                    },
-                    accessibility: {
-                        point: {
-                            valueSuffix: '%'
-                        }
-                    },
-                    plotOptions: {
-                        pie: {
-                            allowPointSelect: true,
-                            cursor: 'pointer',
-                            dataLabels: {
-                                enabled: true,
-                                format: '<b>{point.name}</b>: {point.y:.2f} €',
-                                style: {
-                                    fontFamily: 'Instrument Sans, sans-serif',
-                                    color: '#374151', // gray-700
-                                    fontWeight: 'normal'
-                                }
-                            },
-                            showInLegend: true,
-                            size: '80%',
-                            innerSize: '50%' // Donut style
-                        }
-                    },
-                    legend: {
-                        align: 'center',
-                        verticalAlign: 'bottom',
-                        backgroundColor: '#f9fafb', // gray-50
-                        borderColor: '#e5e7eb', // gray-200
-                        borderWidth: 1,
-                        itemStyle: {
-                            fontFamily: 'Instrument Sans, sans-serif',
-                            color: '#374151' // gray-700
-                        }
-                    },
-                    series: [{
-                        name: 'Ingressos',
-                        data: <?php echo json_encode($ingressos_anual, JSON_NUMERIC_CHECK); ?>
-                    }],
-                    responsive: {
-                        rules: [{
-                            condition: {
-                                maxWidth: 500
-                            },
-                            chartOptions: {
-                                legend: {
-                                    align: 'center',
-                                    verticalAlign: 'bottom',
-                                    layout: 'horizontal'
-                                }
-                            }
-                        }]
+            Highcharts.chart('ingressos-chart', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Distribució d\'Ingressos - Any 2025'
+                },
+                tooltip: {
+                    pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f} €</b> ({point.percentage:.1f}%)'
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
                     }
-                });
-            <?php endif; ?>
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.y:.2f} €',
+                            style: {
+                                fontFamily: 'Instrument Sans, sans-serif',
+                                color: '#374151', // gray-700
+                                fontWeight: 'normal'
+                            }
+                        },
+                        showInLegend: true,
+                        size: '80%',
+                        innerSize: '50%' // Donut style
+                    }
+                },
+                legend: {
+                    align: 'center',
+                    verticalAlign: 'bottom',
+                    backgroundColor: '#f9fafb', // gray-50
+                    borderColor: '#e5e7eb', // gray-200
+                    borderWidth: 1,
+                    itemStyle: {
+                        fontFamily: 'Instrument Sans, sans-serif',
+                        color: '#374151' // gray-700
+                    }
+                },
+                series: [{
+                    name: 'Ingressos',
+                    data: <?php echo json_encode($ingressos_anual, JSON_NUMERIC_CHECK); ?>
+                }]
+            });
 
             // Gràfic per despeses
-            <?php if ($total_despeses > 0): ?>
-                Highcharts.chart('despeses-chart', {
-                    chart: {
-                        type: 'pie'
-                    },
-                    title: {
-                        text: 'Distribució de Despeses - Any 2025'
-                    },
-                    tooltip: {
-                        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f} €</b> ({point.percentage:.1f}%)'
-                    },
-                    accessibility: {
-                        point: {
-                            valueSuffix: '%'
-                        }
-                    },
-                    plotOptions: {
-                        pie: {
-                            allowPointSelect: true,
-                            cursor: 'pointer',
-                            dataLabels: {
-                                enabled: true,
-                                format: '<b>{point.name}</b>: {point.y:.2f} €',
-                                style: {
-                                    fontFamily: 'Instrument Sans, sans-serif',
-                                    color: '#374151', // gray-700
-                                    fontWeight: 'normal'
-                                }
-                            },
-                            showInLegend: true,
-                            size: '80%',
-                            innerSize: '50%' // Donut style
-                        }
-                    },
-                    legend: {
-                        align: 'center',
-                        verticalAlign: 'bottom',
-                        backgroundColor: '#f9fafb', // gray-50
-                        borderColor: '#e5e7eb', // gray-200
-                        borderWidth: 1,
-                        itemStyle: {
-                            fontFamily: 'Instrument Sans, sans-serif',
-                            color: '#374151' // gray-700
-                        }
-                    },
-                    series: [{
-                        name: 'Despeses',
-                        data: <?php echo json_encode($despeses_anual, JSON_NUMERIC_CHECK); ?>
-                    }],
-                    responsive: {
-                        rules: [{
-                            condition: {
-                                maxWidth: 500
-                            },
-                            chartOptions: {
-                                legend: {
-                                    align: 'center',
-                                    verticalAlign: 'bottom',
-                                    layout: 'horizontal'
-                                }
-                            }
-                        }]
+            Highcharts.chart('despeses-chart', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Distribució de Despeses - Any 2025'
+                },
+                tooltip: {
+                    pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f} €</b> ({point.percentage:.1f}%)'
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
                     }
-                });
-            <?php endif; ?>
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.y:.2f} €',
+                            style: {
+                                fontFamily: 'Instrument Sans, sans-serif',
+                                color: '#374151', // gray-700
+                                fontWeight: 'normal'
+                            }
+                        },
+                        showInLegend: true,
+                        size: '80%',
+                        innerSize: '50%' // Donut style
+                    }
+                },
+                legend: {
+                    align: 'center',
+                    verticalAlign: 'bottom',
+                    backgroundColor: '#f9fafb', // gray-50
+                    borderColor: '#e5e7eb', // gray-200
+                    borderWidth: 1,
+                    itemStyle: {
+                        fontFamily: 'Instrument Sans, sans-serif',
+                        color: '#374151' // gray-700
+                    }
+                },
+                series: [{
+                    name: 'Despeses',
+                    data: <?php echo json_encode($despeses_anual, JSON_NUMERIC_CHECK); ?>
+                }]
+            });
         });
     </script>
 

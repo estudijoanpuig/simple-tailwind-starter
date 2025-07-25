@@ -40,7 +40,6 @@ except Exception as e:
 def clean_currency(value):
     try:
         if isinstance(value, str):
-            # Eliminar ' €', 'â¬', substituir '.' (milers) per '' i ',' (decimals) per '.'
             cleaned_value = value.replace(' €', '').replace('â¬', '').replace('.', '').replace(',', '.')
             return float(cleaned_value)
         return float(value) if pd.notna(value) else 0.0
@@ -67,7 +66,7 @@ columns = df.columns.str.upper()
 if 'TOTAL' not in columns:
     logging.error("La columna 'TOTAL' no existeix al CSV. Verifica les capçaleres.")
     exit(1)
-df['IMPORT TOTAL'] = df['TOTAL'].apply(clean_currency)
+df['TOTAL'] = df['TOTAL'].apply(clean_currency)
 
 if 'BASE IVA' in columns:
     df['BASE IVA'] = df['BASE IVA'].apply(clean_currency)
@@ -92,7 +91,7 @@ else:
     df['%IVA'] = 0.0
     logging.warning("La columna '%IVA' no existeix, s'utilitza 0.0.")
 
-df = df[(df['IMPORT TOTAL'] > 0) & (df['DATA'].notna())]
+df = df[(df['TOTAL'] > 0) & (df['DATA'].notna())]
 logging.info(f"Total de files després de netejar: {len(df)}")
 
 try:
@@ -111,7 +110,6 @@ try:
             cursor.close()
             conn.close()
             exit(1)
-        cursor.fetchall()
 except mysql.connector.Error as e:
     logging.error(f"Error en comprovar taules: {e}")
     cursor.close()
@@ -139,7 +137,6 @@ try:
     for proveedor in proveedores:
         cursor.execute("SELECT id FROM wp_contabilidad_proveedores WHERE nombre = %s", (proveedor,))
         result = cursor.fetchone()
-        cursor.fetchall()
         if not result:
             cursor.execute(
                 "INSERT INTO wp_contabilidad_proveedores (nombre, created_at, updated_at) VALUES (%s, NOW(), NOW())",
@@ -163,7 +160,6 @@ try:
     for concepte in conceptes:
         cursor.execute("SELECT id FROM wp_contabilidad_productos WHERE nombre = %s", (concepte,))
         result = cursor.fetchone()
-        cursor.fetchall()
         if not result:
             cursor.execute(
                 """
@@ -188,33 +184,29 @@ try:
     for index, row in df.iterrows():
         cursor.execute(
             "SELECT id FROM wp_contabilidad_compras WHERE fecha = %s AND proveedor_id = %s",
-            (row['DATA'], proveedor_ids.get(row['NOM'], None) if 'NOM' in df.columns else None)
+            (row['DATA'], proveedor_ids.get(row.get('NOM', None), None))
         )
         if cursor.fetchone():
             logging.info(f"Despesa ja existent per proveïdor {row.get('NOM', 'Desconegut')}, data {row['DATA']}. Saltant...")
             continue
 
-        total = row.get('IMPORT TOTAL', 0.0)
+        total = row['TOTAL']
         base_iva = row.get('BASE IVA', 0.0)
         iva_porcentaje = row.get('%IVA', 0.0)
         iva_monto = row.get('IVA SOPORTAT', 0.0) if pd.notna(row.get('IVA SOPORTAT')) else round(total - base_iva, 2)
-        notas = f"Forma de pagament: {row.get('FORMA PAGAMENT', 'Desconegut')}"
-        if pd.notna(row.get('NUMERO DOCUMENT')):
-            notas += f", Número document: {row['NUMERO DOCUMENT']}"
 
         cursor.execute(
             """
             INSERT INTO wp_contabilidad_compras 
-            (fecha, proveedor_id, subtotal, iva_monto, total, notas, created_at)
-            VALUES (%s, %s, %s, %s, %s, %s, NOW())
+            (fecha, proveedor_id, subtotal, iva_monto, total, created_at)
+            VALUES (%s, %s, %s, %s, %s, NOW())
             """,
             (
                 row['DATA'],
                 proveedor_ids.get(row.get('NOM', None), None),
                 base_iva,
                 iva_monto,
-                total,
-                notas
+                total
             )
         )
         compra_id = cursor.lastrowid

@@ -1,10 +1,9 @@
 <?php include 'head.php'; ?>
 
-
 <!-- Content -->
 <main class="max-w-7xl mx-auto p-6">
     <h1 class="mb-4 text-4xl font-extrabold text-center text-gray-900 md:text-5xl">
-        Gestió <span class="inline-block py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500">Informe Resultats</span>
+        Gestió <span class="inline-block py-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500">Informe Fiscal</span>
     </h1>
     <script>
         document.title = document.querySelector('h1').textContent;
@@ -12,44 +11,6 @@
 
     <?php
     try {
-        // Consulta per obtenir els sistemes de pagament per trimestre (ingressos i despeses), sense IVA, amb collations uniformes
-        $sql_pagaments_trimestre = "
-            SELECT 
-                CONCAT(YEAR(fecha), '-Q', QUARTER(fecha)) AS trimestre,
-                notas COLLATE utf8mb4_unicode_ci AS metode,
-                'ingressos' AS tipus,
-                SUM(subtotal) AS total
-            FROM wp_contabilidad_ventas
-            WHERE notas IS NOT NULL AND notas != ''
-            GROUP BY trimestre, metode
-            UNION ALL
-            SELECT 
-                CONCAT(YEAR(fecha), '-Q', QUARTER(fecha)) AS trimestre,
-                notas COLLATE utf8mb4_unicode_ci AS metode,
-                'despeses' AS tipus,
-                SUM(subtotal) AS total
-            FROM wp_contabilidad_compras
-            WHERE notas IS NOT NULL AND notas != ''
-            GROUP BY trimestre, metode
-            ORDER BY trimestre, tipus, total DESC
-        ";
-        $stmt_pagaments_trimestre = $pdo->query($sql_pagaments_trimestre);
-        $pagaments_trimestre_data = $stmt_pagaments_trimestre->fetchAll(PDO::FETCH_ASSOC);
-
-        // Processar dades per trimestres per al gràfic de pastís
-        $pagaments_by_trimestre = [];
-        $trimestres = [];
-        foreach ($pagaments_trimestre_data as $row) {
-            $trimestre = $row['trimestre'];
-            $trimestres[] = $trimestre;
-            $metode = $row['metode'] . ' (' . ucfirst($row['tipus']) . ')'; // Afegim tipus per diferenciar ingressos/despeses
-            $pagaments_by_trimestre[$trimestre][] = [
-                'name' => $metode,
-                'y' => floatval($row['total'])
-            ];
-        }
-        $trimestres = array_unique($trimestres);
-
         // Consulta per obtenir l'IVA repercutit (totes les vendes) per trimestre
         $sql_ventas = "
             SELECT 
@@ -209,61 +170,6 @@
     }
     ?>
 
-    <!-- Secció del gràfic: Sistemes de pagament per trimestres (pastís amb gradient, side by side) -->
-    <div class="mb-8">
-        <h2 class="text-2xl font-semibold text-gray-700 mb-4 text-center">Sistemes de Pagament per Trimestres</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <?php foreach ($pagaments_by_trimestre as $trimestre => $data): ?>
-                <div class="col-span-1">
-                    <h3 class="text-xl font-medium text-gray-600 mb-2 text-center"><?php echo htmlspecialchars($trimestre); ?></h3>
-                    <div id="pagament-chart-<?php echo str_replace('-', '', $trimestre); ?>" class="w-full h-96"></div>
-                </div>
-                <script>
-                    Highcharts.chart('pagament-chart-<?php echo str_replace('-', '', $trimestre); ?>', {
-                        chart: {
-                            type: 'pie'
-                        },
-                        title: {
-                            text: 'Distribució - <?php echo htmlspecialchars($trimestre); ?>'
-                        },
-                        tooltip: {
-                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-                        },
-                        accessibility: {
-                            point: {
-                                valueSuffix: '%'
-                            }
-                        },
-                        plotOptions: {
-                            pie: {
-                                allowPointSelect: true,
-                                cursor: 'pointer',
-                                dataLabels: {
-                                    enabled: true,
-                                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                                    connectorColor: 'silver'
-                                },
-                                colors: Highcharts.map(Highcharts.getOptions().colors, function (color) {
-                                    return {
-                                        radialGradient: { cx: 0.5, cy: 0.3, r: 0.7 },
-                                        stops: [
-                                            [0, color],
-                                            [1, Highcharts.color(color).brighten(-0.3).get('rgb')]
-                                        ]
-                                    };
-                                })
-                            }
-                        },
-                        series: [{
-                            name: 'Proporció',
-                            data: <?php echo json_encode($data); ?>
-                        }]
-                    });
-                </script>
-            <?php endforeach; ?>
-        </div>
-    </div>
-
     <!-- Secció del gràfic: Totes les vendes i compres -->
     <div class="mb-8">
         <h2 class="text-2xl font-semibold text-gray-700 mb-4 text-center">Informe General d'IVA</h2>
@@ -404,7 +310,7 @@
         });
     </script>
 
-    <!-- Incloure jQuery i DataTables -->
+    <!-- Incloure jQuery i DataTables per a les taules -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -434,7 +340,7 @@
 
     <?php
     // Alliberar memòria final
-    unset($quarters, $ventas_data, $compras_data, $ventas_efectiu_data, $compras_efectiu_data, $resultados_data, $resultados, $quarters_efectiu, $resultados_efectiu_data, $pagaments_trimestre_data, $pagaments_by_trimestre);
+    unset($quarters, $ventas_data, $compras_data, $ventas_efectiu_data, $compras_efectiu_data, $resultados_data, $resultados, $quarters_efectiu, $resultados_efectiu_data, $pagaments_trimestre_data, $pagaments_ingressos_by_trimestre, $pagaments_despeses_by_trimestre, $trimestres);
     ?>
 </main>
 <?php include 'footer.php'; ?>
