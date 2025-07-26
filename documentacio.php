@@ -38,6 +38,24 @@
         </p>
     </section>
 	
+	<div id="python"class="code-container">
+    <div class="code-header">
+        <span>python</span>
+        <button class="copy-btn" data-clipboard-target="#dir-code">
+            <i class="far fa-copy mr-1"></i> Copiar
+        </button>
+    </div>
+	
+	
+    <pre><code id="dir-code" class="text"><?php
+echo htmlspecialchars('cd C:\Apache24\htdocs\simple-tailwind-starter
+py import_despeses_to_db.py "compartit 1tr-2025 - DESPESES.csv"
+');
+    ?></code></pre>
+</div>
+	
+	
+	
 	<div id="llibreries"class="code-container">
     <div class="code-header">
         <span>head</span>
