@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/logo.png">
     <title>Documentació amb Blocs de Codi Enriquits</title>
 
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -189,13 +190,15 @@ Cruds taules bbdd <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             <button class="px-4 py-2 hover:bg-blue-700 rounded flex items-center dropdown-btn">
                                 Informes <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
-                            <div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
-                                <a href="informe_ventas.php" class="block px-4 py-2 hover:bg-gray-100">informe ventas</a>
-                                <a href="informe_productes.php" class="block px-4 py-2 hover:bg-gray-100">informe productes</a>
-                                <a href="informe_empleats.php" class="block px-4 py-2 hover:bg-gray-100">informe empleats</a>
-								<a href="informe_gastos.php" class="block px-4 py-2 hover:bg-gray-100">informe gastos</a>
-								<a href="informe_resultado.php" class="block px-4 py-2 hover:bg-gray-100">informe resultado</a>
-                            </div>
+<div class="dropdown-menu absolute bg-white text-gray-800 rounded shadow-lg mt-1 w-48 z-10">
+<a href="informe_ventas.php" class="block px-4 py-2 hover:bg-gray-100">informe ventas</a>
+<a href="informe_productes.php" class="block px-4 py-2 hover:bg-gray-100">informe productes</a>
+<a href="informe_empleats.php" class="block px-4 py-2 hover:bg-gray-100">informe empleats</a>
+<a href="informe_gastos.php" class="block px-4 py-2 hover:bg-gray-100">informe gastos</a>
+<a href="informe_resultado.php" class="block px-4 py-2 hover:bg-gray-100">informe resultado</a>
+<a href="informe_clientes.php" class="block px-4 py-2 hover:bg-gray-100">informe clientes</a>
+<a href="informe_fiscal.php" class="block px-4 py-2 hover:bg-gray-100">informe fiscal</a>
+</div>
                         </div>
 
                         <!-- Dropdown 4: Configuració -->
@@ -253,13 +256,15 @@ productes</a>
                     class="mobile-dropdown-btn w-full text-left px-3 py-2 rounded flex justify-between items-center bg-blue-600">
                     Informes <i class="fas fa-chevron-down"></i>
                 </button>
-                <div class="mobile-dropdown-content pl-4 mt-1">
-                    <a href="informe_ventas.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe ventas</a>
-                    <a href="informe_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe productes</a>
-                    <a href="informe_empleats.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe empleats</a>
-					<a href="informe_gastos.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe gastos</a>
-					<a href="informe_resultado.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe resultado</a>
-                </div>
+<div class="mobile-dropdown-content pl-4 mt-1">
+<a href="informe_ventas.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe ventas</a>
+<a href="informe_productes.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe productes</a>
+<a href="informe_empleats.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe empleats</a>
+<a href="informe_gastos.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe gastos</a>
+<a href="informe_resultado.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe resultado</a>
+<a href="informe_clientes.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe clientes</a>
+<a href="informe_fiscal.php" class="block px-3 py-2 rounded hover:bg-blue-600">informe fiscal</a>
+</div>
             </div>
 
             <!-- Dropdown 4: Configuració -->
